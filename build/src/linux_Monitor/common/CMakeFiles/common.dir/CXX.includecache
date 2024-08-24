@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/u/Desktop/myNewRpcProject/src/linux_Monitor/common/common.cpp
+common.h
+/home/u/Desktop/myNewRpcProject/src/linux_Monitor/common/common.h
+
+/home/u/Desktop/myNewRpcProject/src/linux_Monitor/common/common.h
+iostream
+-
+string
+-
+fstream
+-
+cstring
+-
+unistd.h
+-
+
+/home/u/Desktop/myNewRpcProject/src/linux_Monitor/common/myLog.cpp
+myLog.h
+/home/u/Desktop/myNewRpcProject/src/linux_Monitor/common/myLog.h
+
+/home/u/Desktop/myNewRpcProject/src/linux_Monitor/common/myLog.h
+glog/logging.h
+-
+iostream
+-
+mutex
+-
+string
+-
+

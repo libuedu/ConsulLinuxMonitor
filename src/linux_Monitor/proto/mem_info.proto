@@ -1,0 +1,26 @@
+syntax = "proto3";                       
+package linux_Monitor;                   
+
+// 定义一个消息用于详细描述内存使用情况
+message MemInfo {
+    float total = 1;                      // 系统总内存量（单位：MB或GB）
+    float free = 2;                       // 系统空闲内存量
+    float avail = 3;                      // 可用内存量，不一定全部空闲，但可被进程使用
+    float buffers = 4;                    // 用作缓冲的内存量
+    float cached = 5;                     // 用作缓存的内存量
+    float swap_cached = 6;                // 被交换缓存使用的内存量
+    float active = 7;                     // 活跃的内存量，近期被使用
+    float inactive = 8;                   // 非活跃的内存量，较少使用
+    float active_anon = 9;                // 匿名活跃内存量（没有关联的文件）
+    float inactive_anon = 10;             // 匿名非活跃内存量
+    float active_file = 11;               // 文件活跃内存量（有关联的文件）
+    float inactive_file = 12;             // 文件非活跃内存量
+    float dirty = 13;                     // 待写回到磁盘的内存量
+    float writeback = 14;                 // 正在被写回磁盘的内存量
+    float anon_pages = 15;                // 匿名页内存量
+    float mapped = 16;                    // 映射到用户空间的内存量
+    float kReclaimable = 17;              // 内核可回收的内存量
+    float sReclaimable = 18;              // Slab分配器中可回收的内存量
+    float sUnreclaim = 19;                // Slab分配器中不可回收的内存量
+    float used_percent = 31;              // 已使用的内存百分比
+}

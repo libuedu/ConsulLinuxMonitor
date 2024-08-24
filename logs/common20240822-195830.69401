@@ -1,0 +1,14 @@
+Log file created at: 2024/08/22 19:58:30
+Running on machine: u-virtual-machine
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0822 19:58:30.213204 69401 main_test.cpp:25] Log Hello World!!!
+I0822 19:58:30.215006 69402 cpu_softirq_monitor.cpp:73] The CPU soft interrupt monitoring information is updated.
+I0822 19:58:30.215245 69402 cpu_load_monitor.cpp:37] The CPU load monitoring information is updated.
+I0822 19:58:30.215816 69402 cpu_stat_monitor.cpp:48] The CPU status monitoring information is updated.
+I0822 19:58:30.216344 69402 mem_monitor.cpp:144] The memory monitoring information is updated.
+W0822 19:58:30.216743 69402 net_monitor.cpp:59] Invalid network data rows:Inter-|
+W0822 19:58:30.217352 69402 net_monitor.cpp:59] Invalid network data rows:face
+I0822 19:58:30.217700 69402 net_monitor.cpp:50] GET NEW DATA
+I0822 19:58:30.217815 69402 net_monitor.cpp:50] GET NEW DATA
+I0822 19:58:30.217875 69402 net_monitor.cpp:50] GET NEW DATA
+I0822 19:58:30.217903 69402 net_monitor.cpp:64] The network monitoring information is updated.

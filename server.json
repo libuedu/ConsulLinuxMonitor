@@ -1,0 +1,12 @@
+{
+  "server": true,
+  "node_name": "MainServer",           
+  "bootstrap_expect": 1,                    
+  "data_dir": "consul",           
+  "retry_join": ["192.168.231.128", "192.168.231.129", "192.168.231.130", "192.168.231.131"], 
+  "bind_addr": "192.168.231.128",           
+  "client_addr": "0.0.0.0",                 
+  "ui": true,                               
+  "datacenter": "MyLinuxMonitor"                
+}
+

@@ -1,0 +1,9 @@
+syntax = "proto3";            
+package linux_Monitor;         
+
+// 定义一个消息用于表示 CPU 的负载情况
+message CpuLoad {
+    float load_avg_1 = 1;       // 过去 1 分钟的平均负载
+    float load_avg_3 = 2;       // 过去 3 分钟的平均负载
+    float load_avg_15 = 3;      // 过去 15 分钟的平均负载
+}

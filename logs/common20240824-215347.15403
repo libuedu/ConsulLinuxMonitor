@@ -1,0 +1,46 @@
+Log file created at: 2024/08/24 21:53:47
+Running on machine: u-virtual-machine
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0824 21:53:47.706419 15403 main_test.cpp:52] Log Hello World!!!
+I0824 21:53:47.717814 15407 cpu_softirq_monitor.cpp:81] The CPU soft interrupt monitoring information is updated.
+I0824 21:53:47.718060 15407 cpu_load_monitor.cpp:37] The CPU load monitoring information is updated.
+I0824 21:53:47.718796 15407 mem_monitor.cpp:144] The memory monitoring information is updated.
+W0824 21:53:47.719066 15407 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 21:53:47.719437 15407 net_monitor.cpp:58] Invalid network data rows:face
+I0824 21:53:47.719553 15407 net_monitor.cpp:63] The network monitoring information is updated.
+I0824 21:53:50.729813 15407 cpu_softirq_monitor.cpp:81] The CPU soft interrupt monitoring information is updated.
+I0824 21:53:50.730043 15407 cpu_load_monitor.cpp:37] The CPU load monitoring information is updated.
+I0824 21:53:50.730547 15407 mem_monitor.cpp:144] The memory monitoring information is updated.
+W0824 21:53:50.730823 15407 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 21:53:50.730932 15407 net_monitor.cpp:58] Invalid network data rows:face
+I0824 21:53:50.731055 15407 net_monitor.cpp:63] The network monitoring information is updated.
+I0824 21:53:53.734771 15407 cpu_softirq_monitor.cpp:81] The CPU soft interrupt monitoring information is updated.
+I0824 21:53:53.735061 15407 cpu_load_monitor.cpp:37] The CPU load monitoring information is updated.
+I0824 21:53:53.735518 15407 mem_monitor.cpp:144] The memory monitoring information is updated.
+W0824 21:53:53.735743 15407 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 21:53:53.735848 15407 net_monitor.cpp:58] Invalid network data rows:face
+I0824 21:53:53.735921 15407 net_monitor.cpp:63] The network monitoring information is updated.
+I0824 21:53:56.739169 15407 cpu_softirq_monitor.cpp:81] The CPU soft interrupt monitoring information is updated.
+I0824 21:53:56.739532 15407 cpu_load_monitor.cpp:37] The CPU load monitoring information is updated.
+I0824 21:53:56.740057 15407 mem_monitor.cpp:144] The memory monitoring information is updated.
+W0824 21:53:56.740306 15407 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 21:53:56.740454 15407 net_monitor.cpp:58] Invalid network data rows:face
+I0824 21:53:56.740520 15407 net_monitor.cpp:63] The network monitoring information is updated.
+I0824 21:53:59.744992 15407 cpu_softirq_monitor.cpp:81] The CPU soft interrupt monitoring information is updated.
+I0824 21:53:59.745368 15407 cpu_load_monitor.cpp:37] The CPU load monitoring information is updated.
+I0824 21:53:59.746381 15407 mem_monitor.cpp:144] The memory monitoring information is updated.
+W0824 21:53:59.746964 15407 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 21:53:59.747350 15407 net_monitor.cpp:58] Invalid network data rows:face
+I0824 21:53:59.747829 15407 net_monitor.cpp:63] The network monitoring information is updated.
+I0824 21:54:02.751852 15407 cpu_softirq_monitor.cpp:81] The CPU soft interrupt monitoring information is updated.
+I0824 21:54:02.752071 15407 cpu_load_monitor.cpp:37] The CPU load monitoring information is updated.
+I0824 21:54:02.752669 15407 mem_monitor.cpp:144] The memory monitoring information is updated.
+W0824 21:54:02.752904 15407 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 21:54:02.753038 15407 net_monitor.cpp:58] Invalid network data rows:face
+I0824 21:54:02.753104 15407 net_monitor.cpp:63] The network monitoring information is updated.
+I0824 21:54:05.755788 15407 cpu_softirq_monitor.cpp:81] The CPU soft interrupt monitoring information is updated.
+I0824 21:54:05.756000 15407 cpu_load_monitor.cpp:37] The CPU load monitoring information is updated.
+I0824 21:54:05.756520 15407 mem_monitor.cpp:144] The memory monitoring information is updated.
+W0824 21:54:05.756731 15407 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 21:54:05.756839 15407 net_monitor.cpp:58] Invalid network data rows:face
+I0824 21:54:05.756899 15407 net_monitor.cpp:63] The network monitoring information is updated.

@@ -1,0 +1,31 @@
+Log file created at: 2024/08/23 17:20:37
+Running on machine: u-virtual-machine
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0823 17:20:37.769892 46147 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0823 17:20:37.770465 46147 net_monitor.cpp:58] Invalid network data rows:face
+W0823 17:20:40.787946 46147 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0823 17:20:40.788228 46147 net_monitor.cpp:58] Invalid network data rows:face
+W0823 17:20:43.806393 46147 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0823 17:20:43.806634 46147 net_monitor.cpp:58] Invalid network data rows:face
+W0823 17:20:46.817642 46147 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0823 17:20:46.817904 46147 net_monitor.cpp:58] Invalid network data rows:face
+W0823 17:20:49.827975 46147 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0823 17:20:49.828197 46147 net_monitor.cpp:58] Invalid network data rows:face
+W0823 17:20:52.840189 46147 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0823 17:20:52.840469 46147 net_monitor.cpp:58] Invalid network data rows:face
+W0823 17:20:55.852082 46147 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0823 17:20:55.852284 46147 net_monitor.cpp:58] Invalid network data rows:face
+W0823 17:20:58.862622 46147 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0823 17:20:58.862799 46147 net_monitor.cpp:58] Invalid network data rows:face
+W0823 17:21:01.875563 46147 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0823 17:21:01.875784 46147 net_monitor.cpp:58] Invalid network data rows:face
+W0823 17:21:04.885700 46147 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0823 17:21:04.885962 46147 net_monitor.cpp:58] Invalid network data rows:face
+W0823 17:21:07.897832 46147 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0823 17:21:07.898113 46147 net_monitor.cpp:58] Invalid network data rows:face
+W0823 17:21:10.911882 46147 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0823 17:21:10.912063 46147 net_monitor.cpp:58] Invalid network data rows:face
+W0823 17:21:13.923072 46147 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0823 17:21:13.923290 46147 net_monitor.cpp:58] Invalid network data rows:face
+W0823 17:21:16.934713 46147 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0823 17:21:16.934953 46147 net_monitor.cpp:58] Invalid network data rows:face

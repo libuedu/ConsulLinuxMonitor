@@ -1,0 +1,17 @@
+Log file created at: 2024/08/24 21:53:47
+Running on machine: u-virtual-machine
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0824 21:53:47.719066 15407 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 21:53:47.719437 15407 net_monitor.cpp:58] Invalid network data rows:face
+W0824 21:53:50.730823 15407 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 21:53:50.730932 15407 net_monitor.cpp:58] Invalid network data rows:face
+W0824 21:53:53.735743 15407 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 21:53:53.735848 15407 net_monitor.cpp:58] Invalid network data rows:face
+W0824 21:53:56.740306 15407 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 21:53:56.740454 15407 net_monitor.cpp:58] Invalid network data rows:face
+W0824 21:53:59.746964 15407 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 21:53:59.747350 15407 net_monitor.cpp:58] Invalid network data rows:face
+W0824 21:54:02.752904 15407 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 21:54:02.753038 15407 net_monitor.cpp:58] Invalid network data rows:face
+W0824 21:54:05.756731 15407 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 21:54:05.756839 15407 net_monitor.cpp:58] Invalid network data rows:face

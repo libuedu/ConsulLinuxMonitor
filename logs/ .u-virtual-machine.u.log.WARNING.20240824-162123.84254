@@ -1,0 +1,159 @@
+Log file created at: 2024/08/24 16:21:23
+Running on machine: u-virtual-machine
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0824 16:21:23.957875 84259 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 16:21:23.958133 84259 net_monitor.cpp:58] Invalid network data rows:face
+W0824 16:21:26.968734 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:26.968909 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:26.969009 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:26.969115 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:26.969255 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:26.969365 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:26.969516 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:26.969625 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:26.969696 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:26.970727 84259 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 16:21:26.970885 84259 net_monitor.cpp:58] Invalid network data rows:face
+W0824 16:21:29.974720 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:29.974880 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:29.975068 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:29.975124 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:29.975226 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:29.975381 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:29.975530 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:29.975657 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:29.975739 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:29.976349 84259 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 16:21:29.976469 84259 net_monitor.cpp:58] Invalid network data rows:face
+W0824 16:21:32.979946 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:32.980079 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:32.980129 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:32.980165 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:32.980203 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:32.980242 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:32.980397 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:32.980464 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:32.980579 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:32.981159 84259 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 16:21:32.981284 84259 net_monitor.cpp:58] Invalid network data rows:face
+W0824 16:21:35.985188 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:35.985433 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:35.985507 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:35.985545 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:35.985584 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:35.985702 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:35.985822 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:35.985870 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:35.985915 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:35.986708 84259 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 16:21:35.986840 84259 net_monitor.cpp:58] Invalid network data rows:face
+W0824 16:21:38.990299 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:38.990468 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:38.990694 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:38.990877 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:38.990981 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:38.991094 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:38.991257 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:38.991361 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:38.991441 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:38.992110 84259 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 16:21:38.992235 84259 net_monitor.cpp:58] Invalid network data rows:face
+W0824 16:21:41.996021 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:41.996155 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:41.996205 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:41.996248 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:41.996423 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:41.996524 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:41.996599 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:41.996713 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:41.996806 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:41.997501 84259 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 16:21:41.997632 84259 net_monitor.cpp:58] Invalid network data rows:face
+W0824 16:21:45.003175 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:45.003295 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:45.003374 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:45.003569 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:45.003890 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:45.004043 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:45.004339 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:45.004487 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:45.004846 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:45.005962 84259 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 16:21:45.006063 84259 net_monitor.cpp:58] Invalid network data rows:face
+W0824 16:21:48.010754 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:48.010854 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:48.010950 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:48.011034 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:48.011116 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:48.011199 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:48.011261 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:48.011370 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:48.011458 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:48.012097 84259 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 16:21:48.012228 84259 net_monitor.cpp:58] Invalid network data rows:face
+W0824 16:21:51.015547 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:51.015662 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:51.015713 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:51.015878 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:51.015974 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:51.016083 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:51.016135 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:51.016212 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:51.016324 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:51.016966 84259 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 16:21:51.017067 84259 net_monitor.cpp:58] Invalid network data rows:face
+W0824 16:21:54.020680 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:54.020819 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:54.020874 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:54.020946 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:54.021031 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:54.021111 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:54.021215 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:54.021307 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:54.021363 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:54.022020 84259 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 16:21:54.022141 84259 net_monitor.cpp:58] Invalid network data rows:face
+W0824 16:21:57.025552 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:57.025764 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:57.025817 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:57.025861 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:57.025969 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:57.026064 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:57.026146 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:57.026232 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:57.026322 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:21:57.027074 84259 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 16:21:57.027277 84259 net_monitor.cpp:58] Invalid network data rows:face
+W0824 16:22:00.030712 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:00.030887 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:00.031018 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:00.031139 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:00.031271 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:00.031360 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:00.031441 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:00.031530 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:00.031618 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:00.032219 84259 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 16:22:00.032369 84259 net_monitor.cpp:58] Invalid network data rows:face
+W0824 16:22:03.035861 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:03.035933 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:03.036011 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:03.036098 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:03.036154 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:03.036197 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:03.036237 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:03.036340 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:03.036461 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:03.037067 84259 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 16:22:03.037196 84259 net_monitor.cpp:58] Invalid network data rows:face
+W0824 16:22:06.041788 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:06.042322 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:06.042869 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:06.043032 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:06.043121 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:06.043215 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:06.043287 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:06.043568 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:06.043697 84259 cpu_stat_monitor.cpp:62] Total time delta is zero or negative, skipping CPU stat update.
+W0824 16:22:06.044463 84259 net_monitor.cpp:58] Invalid network data rows:Inter-|
+W0824 16:22:06.044595 84259 net_monitor.cpp:58] Invalid network data rows:face

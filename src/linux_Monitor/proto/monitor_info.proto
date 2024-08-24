@@ -1,0 +1,35 @@
+syntax = "proto3";
+package linux_Monitor;
+
+// 导入必要的 Protobuf 文件
+import "google/protobuf/empty.proto";
+import "net_info.proto";
+import "mem_info.proto";
+import "cpu_stat.proto";
+import "cpu_softirq.proto";
+import "cpu_load.proto";
+
+// MonitorInfo 消息定义，集成了所有监控相关的数据结构
+message MonitorInfo{
+    string name = 1;                            // 监控任务的名称
+    repeated SoftIrq soft_irq = 4;              // 软中断信息列表
+    CpuLoad cpu_load = 5;                       // CPU 负载信息
+    repeated CpuStat cpu_stat = 6;              // CPU 统计信息列表
+    MemInfo mem_info = 7;                       // 内存使用信息
+    repeated NetInfo net_info = 8;              // 网络接口信息列表
+}
+
+// GrpcManager 服务定义，提供设置和获取监控信息的 RPC 方法
+service GrpcManager {
+    // 设置监控信息
+    rpc SetMonitorInfo(MonitorInfo) returns (google.protobuf.Empty) {
+    }
+
+    // 获取监控信息
+    rpc GetMonitorInfo(google.protobuf.Empty) returns (MonitorInfo) {
+    }
+
+    // 健康检查
+    rpc HealthCheck(google.protobuf.Empty) returns (google.protobuf.Empty) {
+    }
+}

@@ -1,0 +1,1 @@
+/usr/bin/c++  -w -O2 -g -ggdb -w   CMakeFiles/common_test.dir/main_common_test.cpp.o  -o ../../../../bin/common_test  -Wl,-rpath,/home/u/Desktop/myNewRpcProject/lib ../../../../lib/libcommon.so -lglog 

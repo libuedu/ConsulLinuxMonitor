@@ -1,0 +1,15 @@
+syntax = "proto3";                       
+package linux_Monitor;            
+       
+// 定义一个消息用于描述 CPU 的详细统计信息
+message CpuStat {
+    string cpu_name = 1;                 // CPU的标识，例如"CPU1"
+    float cpu_percent = 2;               // CPU的总使用率百分比
+    float usr_percent = 3;               // 用户模式下的CPU使用率百分比
+    float system_percent = 4;            // 系统模式下的CPU使用率百分比
+    float nice_percent = 5;              // 优先级调整（nice）的进程的CPU使用率百分比
+    float idle_percent = 6;              // 空闲状态下的CPU使用率百分比
+    float io_wait_percent = 7;           // 等待I/O操作的CPU使用率百分比
+    float irq_percent = 8;               // 处理硬件中断的CPU使用率百分比
+    float soft_irq_percent = 9;          // 处理软件中断的CPU使用率百分比
+}

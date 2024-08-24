@@ -1,0 +1,17 @@
+syntax = "proto3";              
+package linux_Monitor;              
+
+// 定义一个消息用于描述不同类型的软中断（soft interrupt）统计信息
+message SoftIrq {
+    string cpu = 1;                  // 表示统计信息所属的 CPU 标识
+    float hi = 2;                    // 高优先级任务的软中断处理时间
+    float timer = 3;                 // 计时器软中断处理时间
+    float net_tx = 4;                // 网络传输软中断处理时间
+    float net_rx = 5;                // 网络接收软中断处理时间
+    float block = 6;                 // 块设备软中断处理时间
+    float irq_poll = 7;              // 轮询 IRQ 软中断处理时间
+    float tasklet = 8;               // 小任务软中断处理时间
+    float sched = 9;                 // 调度软中断处理时间
+    float hrtimer = 10;              // 高分辨率计时器软中断处理时间
+    float rcu = 11;                  // RCU 软中断处理时间
+}
