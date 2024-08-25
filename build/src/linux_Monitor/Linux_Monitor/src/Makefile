@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/u/Desktop/myNewRpcProject
+CMAKE_SOURCE_DIR = /work
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/u/Desktop/myNewRpcProject/build
+CMAKE_BINARY_DIR = /work/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/u/Desktop/myNewRpcProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/u/Desktop/myNewRpcProject/build/CMakeFiles /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/Linux_Monitor/src/CMakeFiles/progress.marks
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/Linux_Monitor/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/u/Desktop/myNewRpcProject/build/CMakeFiles 0
+	cd /work/build && $(CMAKE_COMMAND) -E cmake_progress_start /work/build/CMakeFiles /work/build/src/linux_Monitor/Linux_Monitor/src/CMakeFiles/progress.marks
+	cd /work/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/Linux_Monitor/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /work/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/Linux_Monitor/src/clean
+	cd /work/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/Linux_Monitor/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/Linux_Monitor/src/preinstall
+	cd /work/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/Linux_Monitor/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/Linux_Monitor/src/preinstall
+	cd /work/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/Linux_Monitor/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/u/Desktop/myNewRpcProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /work/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/rule:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/rule
+	cd /work/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/rule
 .PHONY : src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ Linux_Monitor_test: src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor
 
 # fast build rule for target.
 Linux_Monitor_test/fast:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/build
+	cd /work/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/build
 .PHONY : Linux_Monitor_test/fast
 
 # Convenience name for target.
 src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/rule:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/rule
+	cd /work/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/rule
 .PHONY : src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ Linux_Monitor: src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/
 
 # fast build rule for target.
 Linux_Monitor/fast:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build
+	cd /work/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build
 .PHONY : Linux_Monitor/fast
 
 main_test.o: main_test.cpp.o
@@ -146,7 +146,7 @@ main_test.o: main_test.cpp.o
 
 # target to build an object file
 main_test.cpp.o:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/main_test.cpp.o
+	cd /work/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/main_test.cpp.o
 .PHONY : main_test.cpp.o
 
 main_test.i: main_test.cpp.i
@@ -155,7 +155,7 @@ main_test.i: main_test.cpp.i
 
 # target to preprocess a source file
 main_test.cpp.i:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/main_test.cpp.i
+	cd /work/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/main_test.cpp.i
 .PHONY : main_test.cpp.i
 
 main_test.s: main_test.cpp.s
@@ -164,7 +164,7 @@ main_test.s: main_test.cpp.s
 
 # target to generate assembly for a file
 main_test.cpp.s:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/main_test.cpp.s
+	cd /work/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/main_test.cpp.s
 .PHONY : main_test.cpp.s
 
 monitor/cpu_load_monitor.o: monitor/cpu_load_monitor.cpp.o
@@ -173,7 +173,7 @@ monitor/cpu_load_monitor.o: monitor/cpu_load_monitor.cpp.o
 
 # target to build an object file
 monitor/cpu_load_monitor.cpp.o:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/cpu_load_monitor.cpp.o
+	cd /work/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/cpu_load_monitor.cpp.o
 .PHONY : monitor/cpu_load_monitor.cpp.o
 
 monitor/cpu_load_monitor.i: monitor/cpu_load_monitor.cpp.i
@@ -182,7 +182,7 @@ monitor/cpu_load_monitor.i: monitor/cpu_load_monitor.cpp.i
 
 # target to preprocess a source file
 monitor/cpu_load_monitor.cpp.i:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/cpu_load_monitor.cpp.i
+	cd /work/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/cpu_load_monitor.cpp.i
 .PHONY : monitor/cpu_load_monitor.cpp.i
 
 monitor/cpu_load_monitor.s: monitor/cpu_load_monitor.cpp.s
@@ -191,7 +191,7 @@ monitor/cpu_load_monitor.s: monitor/cpu_load_monitor.cpp.s
 
 # target to generate assembly for a file
 monitor/cpu_load_monitor.cpp.s:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/cpu_load_monitor.cpp.s
+	cd /work/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/cpu_load_monitor.cpp.s
 .PHONY : monitor/cpu_load_monitor.cpp.s
 
 monitor/cpu_softirq_monitor.o: monitor/cpu_softirq_monitor.cpp.o
@@ -200,7 +200,7 @@ monitor/cpu_softirq_monitor.o: monitor/cpu_softirq_monitor.cpp.o
 
 # target to build an object file
 monitor/cpu_softirq_monitor.cpp.o:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/cpu_softirq_monitor.cpp.o
+	cd /work/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/cpu_softirq_monitor.cpp.o
 .PHONY : monitor/cpu_softirq_monitor.cpp.o
 
 monitor/cpu_softirq_monitor.i: monitor/cpu_softirq_monitor.cpp.i
@@ -209,7 +209,7 @@ monitor/cpu_softirq_monitor.i: monitor/cpu_softirq_monitor.cpp.i
 
 # target to preprocess a source file
 monitor/cpu_softirq_monitor.cpp.i:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/cpu_softirq_monitor.cpp.i
+	cd /work/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/cpu_softirq_monitor.cpp.i
 .PHONY : monitor/cpu_softirq_monitor.cpp.i
 
 monitor/cpu_softirq_monitor.s: monitor/cpu_softirq_monitor.cpp.s
@@ -218,7 +218,7 @@ monitor/cpu_softirq_monitor.s: monitor/cpu_softirq_monitor.cpp.s
 
 # target to generate assembly for a file
 monitor/cpu_softirq_monitor.cpp.s:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/cpu_softirq_monitor.cpp.s
+	cd /work/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/cpu_softirq_monitor.cpp.s
 .PHONY : monitor/cpu_softirq_monitor.cpp.s
 
 monitor/cpu_stat_monitor.o: monitor/cpu_stat_monitor.cpp.o
@@ -227,7 +227,7 @@ monitor/cpu_stat_monitor.o: monitor/cpu_stat_monitor.cpp.o
 
 # target to build an object file
 monitor/cpu_stat_monitor.cpp.o:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/cpu_stat_monitor.cpp.o
+	cd /work/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/cpu_stat_monitor.cpp.o
 .PHONY : monitor/cpu_stat_monitor.cpp.o
 
 monitor/cpu_stat_monitor.i: monitor/cpu_stat_monitor.cpp.i
@@ -236,7 +236,7 @@ monitor/cpu_stat_monitor.i: monitor/cpu_stat_monitor.cpp.i
 
 # target to preprocess a source file
 monitor/cpu_stat_monitor.cpp.i:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/cpu_stat_monitor.cpp.i
+	cd /work/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/cpu_stat_monitor.cpp.i
 .PHONY : monitor/cpu_stat_monitor.cpp.i
 
 monitor/cpu_stat_monitor.s: monitor/cpu_stat_monitor.cpp.s
@@ -245,7 +245,7 @@ monitor/cpu_stat_monitor.s: monitor/cpu_stat_monitor.cpp.s
 
 # target to generate assembly for a file
 monitor/cpu_stat_monitor.cpp.s:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/cpu_stat_monitor.cpp.s
+	cd /work/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/cpu_stat_monitor.cpp.s
 .PHONY : monitor/cpu_stat_monitor.cpp.s
 
 monitor/mem_monitor.o: monitor/mem_monitor.cpp.o
@@ -254,7 +254,7 @@ monitor/mem_monitor.o: monitor/mem_monitor.cpp.o
 
 # target to build an object file
 monitor/mem_monitor.cpp.o:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/mem_monitor.cpp.o
+	cd /work/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/mem_monitor.cpp.o
 .PHONY : monitor/mem_monitor.cpp.o
 
 monitor/mem_monitor.i: monitor/mem_monitor.cpp.i
@@ -263,7 +263,7 @@ monitor/mem_monitor.i: monitor/mem_monitor.cpp.i
 
 # target to preprocess a source file
 monitor/mem_monitor.cpp.i:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/mem_monitor.cpp.i
+	cd /work/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/mem_monitor.cpp.i
 .PHONY : monitor/mem_monitor.cpp.i
 
 monitor/mem_monitor.s: monitor/mem_monitor.cpp.s
@@ -272,7 +272,7 @@ monitor/mem_monitor.s: monitor/mem_monitor.cpp.s
 
 # target to generate assembly for a file
 monitor/mem_monitor.cpp.s:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/mem_monitor.cpp.s
+	cd /work/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/mem_monitor.cpp.s
 .PHONY : monitor/mem_monitor.cpp.s
 
 monitor/net_monitor.o: monitor/net_monitor.cpp.o
@@ -281,7 +281,7 @@ monitor/net_monitor.o: monitor/net_monitor.cpp.o
 
 # target to build an object file
 monitor/net_monitor.cpp.o:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/net_monitor.cpp.o
+	cd /work/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/net_monitor.cpp.o
 .PHONY : monitor/net_monitor.cpp.o
 
 monitor/net_monitor.i: monitor/net_monitor.cpp.i
@@ -290,7 +290,7 @@ monitor/net_monitor.i: monitor/net_monitor.cpp.i
 
 # target to preprocess a source file
 monitor/net_monitor.cpp.i:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/net_monitor.cpp.i
+	cd /work/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/net_monitor.cpp.i
 .PHONY : monitor/net_monitor.cpp.i
 
 monitor/net_monitor.s: monitor/net_monitor.cpp.s
@@ -299,7 +299,7 @@ monitor/net_monitor.s: monitor/net_monitor.cpp.s
 
 # target to generate assembly for a file
 monitor/net_monitor.cpp.s:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/net_monitor.cpp.s
+	cd /work/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/net_monitor.cpp.s
 .PHONY : monitor/net_monitor.cpp.s
 
 utils/read_file.o: utils/read_file.cpp.o
@@ -308,7 +308,7 @@ utils/read_file.o: utils/read_file.cpp.o
 
 # target to build an object file
 utils/read_file.cpp.o:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/utils/read_file.cpp.o
+	cd /work/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/utils/read_file.cpp.o
 .PHONY : utils/read_file.cpp.o
 
 utils/read_file.i: utils/read_file.cpp.i
@@ -317,7 +317,7 @@ utils/read_file.i: utils/read_file.cpp.i
 
 # target to preprocess a source file
 utils/read_file.cpp.i:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/utils/read_file.cpp.i
+	cd /work/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/utils/read_file.cpp.i
 .PHONY : utils/read_file.cpp.i
 
 utils/read_file.s: utils/read_file.cpp.s
@@ -326,7 +326,7 @@ utils/read_file.s: utils/read_file.cpp.s
 
 # target to generate assembly for a file
 utils/read_file.cpp.s:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/utils/read_file.cpp.s
+	cd /work/build && $(MAKE) -f src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/build.make src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/utils/read_file.cpp.s
 .PHONY : utils/read_file.cpp.s
 
 # Help Target
@@ -371,6 +371,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/u/Desktop/myNewRpcProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /work/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/u/Desktop/myNewRpcProject
+CMAKE_SOURCE_DIR = /work
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/u/Desktop/myNewRpcProject/build
+CMAKE_BINARY_DIR = /work/build
 
 # Include any dependencies generated for this target.
 include src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/depend.make
@@ -59,16 +59,16 @@ include src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/fl
 
 src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/main_test.cpp.o: src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/flags.make
 src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/main_test.cpp.o: ../src/linux_Monitor/Linux_Monitor/src/main_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/main_test.cpp.o"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/Linux_Monitor/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Linux_Monitor_test.dir/main_test.cpp.o -c /home/u/Desktop/myNewRpcProject/src/linux_Monitor/Linux_Monitor/src/main_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/main_test.cpp.o"
+	cd /work/build/src/linux_Monitor/Linux_Monitor/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Linux_Monitor_test.dir/main_test.cpp.o -c /work/src/linux_Monitor/Linux_Monitor/src/main_test.cpp
 
 src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/main_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Linux_Monitor_test.dir/main_test.cpp.i"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/Linux_Monitor/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/u/Desktop/myNewRpcProject/src/linux_Monitor/Linux_Monitor/src/main_test.cpp > CMakeFiles/Linux_Monitor_test.dir/main_test.cpp.i
+	cd /work/build/src/linux_Monitor/Linux_Monitor/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /work/src/linux_Monitor/Linux_Monitor/src/main_test.cpp > CMakeFiles/Linux_Monitor_test.dir/main_test.cpp.i
 
 src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/main_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Linux_Monitor_test.dir/main_test.cpp.s"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/Linux_Monitor/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/u/Desktop/myNewRpcProject/src/linux_Monitor/Linux_Monitor/src/main_test.cpp -o CMakeFiles/Linux_Monitor_test.dir/main_test.cpp.s
+	cd /work/build/src/linux_Monitor/Linux_Monitor/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /work/src/linux_Monitor/Linux_Monitor/src/main_test.cpp -o CMakeFiles/Linux_Monitor_test.dir/main_test.cpp.s
 
 # Object files for target Linux_Monitor_test
 Linux_Monitor_test_OBJECTS = \
@@ -83,34 +83,34 @@ Linux_Monitor_test_EXTERNAL_OBJECTS =
 ../bin/Linux_Monitor_test: ../lib/libcommon.so
 ../bin/Linux_Monitor_test: ../lib/librpc_client.so
 ../bin/Linux_Monitor_test: ../lib/libmonitor_proto.so
-../bin/Linux_Monitor_test: /usr/lib/libgrpc++.so.1.30.3
-../bin/Linux_Monitor_test: /usr/lib/x86_64-linux-gnu/libprotobuf.so.3.12.2.0
-../bin/Linux_Monitor_test: /usr/lib/libgrpc.so.10.0.0
-../bin/Linux_Monitor_test: /usr/lib/libssl.so
-../bin/Linux_Monitor_test: /usr/lib/libcrypto.so
-../bin/Linux_Monitor_test: /usr/lib/libz.a
-../bin/Linux_Monitor_test: /usr/lib/libcares.a
-../bin/Linux_Monitor_test: /usr/lib/libabsl_bad_optional_access.so
-../bin/Linux_Monitor_test: /usr/lib/libaddress_sorting.so.10.0.0
-../bin/Linux_Monitor_test: /usr/lib/libupb.so.10.0.0
-../bin/Linux_Monitor_test: /usr/lib/libgpr.so.10.0.0
-../bin/Linux_Monitor_test: /usr/lib/libabsl_time.so
-../bin/Linux_Monitor_test: /usr/lib/libabsl_civil_time.so
-../bin/Linux_Monitor_test: /usr/lib/libabsl_time_zone.so
-../bin/Linux_Monitor_test: /usr/lib/libabsl_str_format_internal.so
-../bin/Linux_Monitor_test: /usr/lib/libabsl_strings.so
-../bin/Linux_Monitor_test: /usr/lib/libabsl_strings_internal.so
-../bin/Linux_Monitor_test: /usr/lib/libabsl_base.so
-../bin/Linux_Monitor_test: /usr/lib/libabsl_dynamic_annotations.so
-../bin/Linux_Monitor_test: /usr/lib/libabsl_spinlock_wait.so
-../bin/Linux_Monitor_test: /usr/lib/libabsl_int128.so
-../bin/Linux_Monitor_test: /usr/lib/libabsl_throw_delegate.so
-../bin/Linux_Monitor_test: /usr/lib/libabsl_raw_logging_internal.so
-../bin/Linux_Monitor_test: /usr/lib/libabsl_log_severity.so
+../bin/Linux_Monitor_test: /usr/local/lib/libgrpc++.so.1.30.0
+../bin/Linux_Monitor_test: /usr/local/lib/libprotobuf.so.3.14.0.0
+../bin/Linux_Monitor_test: /usr/local/lib/libgrpc.so.10.0.0
+../bin/Linux_Monitor_test: /usr/local/lib/libz.so
+../bin/Linux_Monitor_test: /usr/lib/x86_64-linux-gnu/libssl.so
+../bin/Linux_Monitor_test: /usr/lib/x86_64-linux-gnu/libcrypto.so
+../bin/Linux_Monitor_test: /usr/lib/x86_64-linux-gnu/libcares.so
+../bin/Linux_Monitor_test: /usr/local/lib/libabsl_bad_optional_access.so
+../bin/Linux_Monitor_test: /usr/local/lib/libaddress_sorting.so.10.0.0
+../bin/Linux_Monitor_test: /usr/local/lib/libupb.so.10.0.0
+../bin/Linux_Monitor_test: /usr/local/lib/libgpr.so.10.0.0
+../bin/Linux_Monitor_test: /usr/local/lib/libabsl_time.so
+../bin/Linux_Monitor_test: /usr/local/lib/libabsl_civil_time.so
+../bin/Linux_Monitor_test: /usr/local/lib/libabsl_time_zone.so
+../bin/Linux_Monitor_test: /usr/local/lib/libabsl_str_format_internal.so
+../bin/Linux_Monitor_test: /usr/local/lib/libabsl_strings.so
+../bin/Linux_Monitor_test: /usr/local/lib/libabsl_strings_internal.so
+../bin/Linux_Monitor_test: /usr/local/lib/libabsl_base.so
+../bin/Linux_Monitor_test: /usr/local/lib/libabsl_dynamic_annotations.so
+../bin/Linux_Monitor_test: /usr/local/lib/libabsl_spinlock_wait.so
+../bin/Linux_Monitor_test: /usr/local/lib/libabsl_int128.so
+../bin/Linux_Monitor_test: /usr/local/lib/libabsl_throw_delegate.so
+../bin/Linux_Monitor_test: /usr/local/lib/libabsl_raw_logging_internal.so
+../bin/Linux_Monitor_test: /usr/local/lib/libabsl_log_severity.so
 ../bin/Linux_Monitor_test: /usr/local/lib/libcpr.so
 ../bin/Linux_Monitor_test: src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../../../bin/Linux_Monitor_test"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/Linux_Monitor/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Linux_Monitor_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../../../bin/Linux_Monitor_test"
+	cd /work/build/src/linux_Monitor/Linux_Monitor/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Linux_Monitor_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/build: ../bin/Linux_Monitor_test
@@ -118,10 +118,10 @@ src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/build: ../
 .PHONY : src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/build
 
 src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/clean:
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/Linux_Monitor/src && $(CMAKE_COMMAND) -P CMakeFiles/Linux_Monitor_test.dir/cmake_clean.cmake
+	cd /work/build/src/linux_Monitor/Linux_Monitor/src && $(CMAKE_COMMAND) -P CMakeFiles/Linux_Monitor_test.dir/cmake_clean.cmake
 .PHONY : src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/clean
 
 src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/depend:
-	cd /home/u/Desktop/myNewRpcProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/u/Desktop/myNewRpcProject /home/u/Desktop/myNewRpcProject/src/linux_Monitor/Linux_Monitor/src /home/u/Desktop/myNewRpcProject/build /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/Linux_Monitor/src /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /work/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /work /work/src/linux_Monitor/Linux_Monitor/src /work/build /work/build/src/linux_Monitor/Linux_Monitor/src /work/build/src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor_test.dir/depend
 

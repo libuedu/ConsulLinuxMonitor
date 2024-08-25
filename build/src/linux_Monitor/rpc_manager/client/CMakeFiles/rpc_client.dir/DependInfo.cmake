@@ -4,13 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/u/Desktop/myNewRpcProject/src/linux_Monitor/rpc_manager/client/rpc_client.cpp" "/home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/rpc_manager/client/CMakeFiles/rpc_client.dir/rpc_client.cpp.o"
+  "/work/src/linux_Monitor/rpc_manager/client/rpc_client.cpp" "/work/build/src/linux_Monitor/rpc_manager/client/CMakeFiles/rpc_client.dir/rpc_client.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
-  "CARES_STATICLIB"
   "__CLANG_SUPPORT_DYN_ANNOTATION__"
   "rpc_client_EXPORTS"
   )
@@ -28,7 +27,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/DependInfo.cmake"
+  "/work/build/src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

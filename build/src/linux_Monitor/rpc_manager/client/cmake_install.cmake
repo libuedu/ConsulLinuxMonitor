@@ -1,4 +1,4 @@
-# Install script for directory: /home/u/Desktop/myNewRpcProject/src/linux_Monitor/rpc_manager/client
+# Install script for directory: /work/src/linux_Monitor/rpc_manager/client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

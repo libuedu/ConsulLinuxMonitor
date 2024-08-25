@@ -28,7 +28,6 @@ static void InitDefaultsscc_info_CpuStat_cpu_5fstat_2eproto() {
     new (ptr) ::linux_Monitor::CpuStat();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
-  ::linux_Monitor::CpuStat::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_CpuStat_cpu_5fstat_2eproto =
@@ -90,8 +89,6 @@ namespace linux_Monitor {
 
 // ===================================================================
 
-void CpuStat::InitAsDefaultInstance() {
-}
 class CpuStat::_Internal {
  public:
 };
@@ -107,7 +104,7 @@ CpuStat::CpuStat(const CpuStat& from)
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   cpu_name_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (!from._internal_cpu_name().empty()) {
-    cpu_name_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from._internal_cpu_name(),
+    cpu_name_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, from._internal_cpu_name(), 
       GetArena());
   }
   ::memcpy(&cpu_percent_, &from.cpu_percent_,
@@ -119,8 +116,9 @@ CpuStat::CpuStat(const CpuStat& from)
 void CpuStat::SharedCtor() {
   ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_CpuStat_cpu_5fstat_2eproto.base);
   cpu_name_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  ::memset(&cpu_percent_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&soft_irq_percent_) -
+  ::memset(reinterpret_cast<char*>(this) + static_cast<size_t>(
+      reinterpret_cast<char*>(&cpu_percent_) - reinterpret_cast<char*>(this)),
+      0, static_cast<size_t>(reinterpret_cast<char*>(&soft_irq_percent_) -
       reinterpret_cast<char*>(&cpu_percent_)) + sizeof(soft_irq_percent_));
 }
 
@@ -156,7 +154,7 @@ void CpuStat::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  cpu_name_.ClearToEmpty(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
+  cpu_name_.ClearToEmpty();
   ::memset(&cpu_percent_, 0, static_cast<size_t>(
       reinterpret_cast<char*>(&soft_irq_percent_) -
       reinterpret_cast<char*>(&cpu_percent_)) + sizeof(soft_irq_percent_));
@@ -165,7 +163,6 @@ void CpuStat::Clear() {
 
 const char* CpuStat::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
     ::PROTOBUF_NAMESPACE_ID::uint32 tag;
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);

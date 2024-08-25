@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/u/Desktop/myNewRpcProject
+CMAKE_SOURCE_DIR = /work
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/u/Desktop/myNewRpcProject/build
+CMAKE_BINARY_DIR = /work/build
 
 # Include any dependencies generated for this target.
 include src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend.make
@@ -58,298 +58,340 @@ include src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/progress.make
 include src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/flags.make
 
 src/linux_Monitor/proto/monitor_info.pb.h: ../src/linux_Monitor/proto/monitor_info.proto
-src/linux_Monitor/proto/monitor_info.pb.h: /usr/bin/protoc-3.12.2.0
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running cpp protocol buffer compiler on monitor_info.proto"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/protoc-3.12.2.0 --cpp_out /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto -I /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto/monitor_info.proto
+src/linux_Monitor/proto/monitor_info.pb.h: /usr/local/bin/protoc-3.14.0.0
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running cpp protocol buffer compiler on monitor_info.proto"
+	cd /work/build/src/linux_Monitor/proto && /usr/local/bin/protoc-3.14.0.0 --cpp_out /work/build/src/linux_Monitor/proto -I /work/src/linux_Monitor/proto /work/src/linux_Monitor/proto/monitor_info.proto
 
 src/linux_Monitor/proto/monitor_info.pb.cc: src/linux_Monitor/proto/monitor_info.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/monitor_info.pb.cc
 
 src/linux_Monitor/proto/cpu_load.pb.h: ../src/linux_Monitor/proto/cpu_load.proto
-src/linux_Monitor/proto/cpu_load.pb.h: /usr/bin/protoc-3.12.2.0
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running cpp protocol buffer compiler on cpu_load.proto"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/protoc-3.12.2.0 --cpp_out /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto -I /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto/cpu_load.proto
+src/linux_Monitor/proto/cpu_load.pb.h: /usr/local/bin/protoc-3.14.0.0
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running cpp protocol buffer compiler on cpu_load.proto"
+	cd /work/build/src/linux_Monitor/proto && /usr/local/bin/protoc-3.14.0.0 --cpp_out /work/build/src/linux_Monitor/proto -I /work/src/linux_Monitor/proto /work/src/linux_Monitor/proto/cpu_load.proto
 
 src/linux_Monitor/proto/cpu_load.pb.cc: src/linux_Monitor/proto/cpu_load.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/cpu_load.pb.cc
 
 src/linux_Monitor/proto/cpu_softirq.pb.h: ../src/linux_Monitor/proto/cpu_softirq.proto
-src/linux_Monitor/proto/cpu_softirq.pb.h: /usr/bin/protoc-3.12.2.0
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Running cpp protocol buffer compiler on cpu_softirq.proto"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/protoc-3.12.2.0 --cpp_out /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto -I /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto/cpu_softirq.proto
+src/linux_Monitor/proto/cpu_softirq.pb.h: /usr/local/bin/protoc-3.14.0.0
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Running cpp protocol buffer compiler on cpu_softirq.proto"
+	cd /work/build/src/linux_Monitor/proto && /usr/local/bin/protoc-3.14.0.0 --cpp_out /work/build/src/linux_Monitor/proto -I /work/src/linux_Monitor/proto /work/src/linux_Monitor/proto/cpu_softirq.proto
 
 src/linux_Monitor/proto/cpu_softirq.pb.cc: src/linux_Monitor/proto/cpu_softirq.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/cpu_softirq.pb.cc
 
 src/linux_Monitor/proto/cpu_stat.pb.h: ../src/linux_Monitor/proto/cpu_stat.proto
-src/linux_Monitor/proto/cpu_stat.pb.h: /usr/bin/protoc-3.12.2.0
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Running cpp protocol buffer compiler on cpu_stat.proto"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/protoc-3.12.2.0 --cpp_out /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto -I /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto/cpu_stat.proto
+src/linux_Monitor/proto/cpu_stat.pb.h: /usr/local/bin/protoc-3.14.0.0
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Running cpp protocol buffer compiler on cpu_stat.proto"
+	cd /work/build/src/linux_Monitor/proto && /usr/local/bin/protoc-3.14.0.0 --cpp_out /work/build/src/linux_Monitor/proto -I /work/src/linux_Monitor/proto /work/src/linux_Monitor/proto/cpu_stat.proto
 
 src/linux_Monitor/proto/cpu_stat.pb.cc: src/linux_Monitor/proto/cpu_stat.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/cpu_stat.pb.cc
 
 src/linux_Monitor/proto/mem_info.pb.h: ../src/linux_Monitor/proto/mem_info.proto
-src/linux_Monitor/proto/mem_info.pb.h: /usr/bin/protoc-3.12.2.0
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Running cpp protocol buffer compiler on mem_info.proto"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/protoc-3.12.2.0 --cpp_out /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto -I /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto/mem_info.proto
+src/linux_Monitor/proto/mem_info.pb.h: /usr/local/bin/protoc-3.14.0.0
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Running cpp protocol buffer compiler on mem_info.proto"
+	cd /work/build/src/linux_Monitor/proto && /usr/local/bin/protoc-3.14.0.0 --cpp_out /work/build/src/linux_Monitor/proto -I /work/src/linux_Monitor/proto /work/src/linux_Monitor/proto/mem_info.proto
 
 src/linux_Monitor/proto/mem_info.pb.cc: src/linux_Monitor/proto/mem_info.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/mem_info.pb.cc
 
 src/linux_Monitor/proto/net_info.pb.h: ../src/linux_Monitor/proto/net_info.proto
-src/linux_Monitor/proto/net_info.pb.h: /usr/bin/protoc-3.12.2.0
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Running cpp protocol buffer compiler on net_info.proto"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/protoc-3.12.2.0 --cpp_out /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto -I /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto/net_info.proto
+src/linux_Monitor/proto/net_info.pb.h: /usr/local/bin/protoc-3.14.0.0
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Running cpp protocol buffer compiler on net_info.proto"
+	cd /work/build/src/linux_Monitor/proto && /usr/local/bin/protoc-3.14.0.0 --cpp_out /work/build/src/linux_Monitor/proto -I /work/src/linux_Monitor/proto /work/src/linux_Monitor/proto/net_info.proto
 
 src/linux_Monitor/proto/net_info.pb.cc: src/linux_Monitor/proto/net_info.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/net_info.pb.cc
 
 src/linux_Monitor/proto/health.pb.h: ../src/linux_Monitor/proto/health.proto
-src/linux_Monitor/proto/health.pb.h: /usr/bin/protoc-3.12.2.0
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Running cpp protocol buffer compiler on health.proto"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/protoc-3.12.2.0 --cpp_out /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto -I /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto/health.proto
+src/linux_Monitor/proto/health.pb.h: /usr/local/bin/protoc-3.14.0.0
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Running cpp protocol buffer compiler on health.proto"
+	cd /work/build/src/linux_Monitor/proto && /usr/local/bin/protoc-3.14.0.0 --cpp_out /work/build/src/linux_Monitor/proto -I /work/src/linux_Monitor/proto /work/src/linux_Monitor/proto/health.proto
 
 src/linux_Monitor/proto/health.pb.cc: src/linux_Monitor/proto/health.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/health.pb.cc
 
 src/linux_Monitor/proto/monitor_info.grpc.pb.h: ../src/linux_Monitor/proto/monitor_info.proto
-src/linux_Monitor/proto/monitor_info.grpc.pb.h: /usr/bin/protoc-3.12.2.0
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Running grpc protocol buffer compiler on monitor_info.proto"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/protoc-3.12.2.0 --grpc_out /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto --plugin=protoc-gen-grpc=/usr/bin/grpc_cpp_plugin -I /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto/monitor_info.proto
+src/linux_Monitor/proto/monitor_info.grpc.pb.h: /usr/local/bin/protoc-3.14.0.0
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Running grpc protocol buffer compiler on monitor_info.proto"
+	cd /work/build/src/linux_Monitor/proto && /usr/local/bin/protoc-3.14.0.0 --grpc_out /work/build/src/linux_Monitor/proto -I /work/src/linux_Monitor/proto /work/src/linux_Monitor/proto/monitor_info.proto
 
 src/linux_Monitor/proto/monitor_info.grpc.pb.cc: src/linux_Monitor/proto/monitor_info.grpc.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/monitor_info.grpc.pb.cc
 
+src/linux_Monitor/proto/monitor_infoPLUGIN: src/linux_Monitor/proto/monitor_info.grpc.pb.h
+	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/monitor_infoPLUGIN
+
+src/linux_Monitor/proto/monitor_infoprotoc-gen-grpc$(EQUALS)/usr/local/bin/grpc_cpp_plugin: src/linux_Monitor/proto/monitor_info.grpc.pb.h
+	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/monitor_infoprotoc-gen-grpc=/usr/local/bin/grpc_cpp_plugin
+
 src/linux_Monitor/proto/cpu_load.grpc.pb.h: ../src/linux_Monitor/proto/cpu_load.proto
-src/linux_Monitor/proto/cpu_load.grpc.pb.h: /usr/bin/protoc-3.12.2.0
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Running grpc protocol buffer compiler on cpu_load.proto"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/protoc-3.12.2.0 --grpc_out /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto --plugin=protoc-gen-grpc=/usr/bin/grpc_cpp_plugin -I /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto/cpu_load.proto
+src/linux_Monitor/proto/cpu_load.grpc.pb.h: /usr/local/bin/protoc-3.14.0.0
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Running grpc protocol buffer compiler on cpu_load.proto"
+	cd /work/build/src/linux_Monitor/proto && /usr/local/bin/protoc-3.14.0.0 --grpc_out /work/build/src/linux_Monitor/proto -I /work/src/linux_Monitor/proto /work/src/linux_Monitor/proto/cpu_load.proto
 
 src/linux_Monitor/proto/cpu_load.grpc.pb.cc: src/linux_Monitor/proto/cpu_load.grpc.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/cpu_load.grpc.pb.cc
 
+src/linux_Monitor/proto/cpu_loadPLUGIN: src/linux_Monitor/proto/cpu_load.grpc.pb.h
+	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/cpu_loadPLUGIN
+
+src/linux_Monitor/proto/cpu_loadprotoc-gen-grpc$(EQUALS)/usr/local/bin/grpc_cpp_plugin: src/linux_Monitor/proto/cpu_load.grpc.pb.h
+	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/cpu_loadprotoc-gen-grpc=/usr/local/bin/grpc_cpp_plugin
+
 src/linux_Monitor/proto/cpu_softirq.grpc.pb.h: ../src/linux_Monitor/proto/cpu_softirq.proto
-src/linux_Monitor/proto/cpu_softirq.grpc.pb.h: /usr/bin/protoc-3.12.2.0
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Running grpc protocol buffer compiler on cpu_softirq.proto"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/protoc-3.12.2.0 --grpc_out /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto --plugin=protoc-gen-grpc=/usr/bin/grpc_cpp_plugin -I /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto/cpu_softirq.proto
+src/linux_Monitor/proto/cpu_softirq.grpc.pb.h: /usr/local/bin/protoc-3.14.0.0
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Running grpc protocol buffer compiler on cpu_softirq.proto"
+	cd /work/build/src/linux_Monitor/proto && /usr/local/bin/protoc-3.14.0.0 --grpc_out /work/build/src/linux_Monitor/proto -I /work/src/linux_Monitor/proto /work/src/linux_Monitor/proto/cpu_softirq.proto
 
 src/linux_Monitor/proto/cpu_softirq.grpc.pb.cc: src/linux_Monitor/proto/cpu_softirq.grpc.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/cpu_softirq.grpc.pb.cc
 
+src/linux_Monitor/proto/cpu_softirqPLUGIN: src/linux_Monitor/proto/cpu_softirq.grpc.pb.h
+	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/cpu_softirqPLUGIN
+
+src/linux_Monitor/proto/cpu_softirqprotoc-gen-grpc$(EQUALS)/usr/local/bin/grpc_cpp_plugin: src/linux_Monitor/proto/cpu_softirq.grpc.pb.h
+	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/cpu_softirqprotoc-gen-grpc=/usr/local/bin/grpc_cpp_plugin
+
 src/linux_Monitor/proto/cpu_stat.grpc.pb.h: ../src/linux_Monitor/proto/cpu_stat.proto
-src/linux_Monitor/proto/cpu_stat.grpc.pb.h: /usr/bin/protoc-3.12.2.0
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Running grpc protocol buffer compiler on cpu_stat.proto"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/protoc-3.12.2.0 --grpc_out /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto --plugin=protoc-gen-grpc=/usr/bin/grpc_cpp_plugin -I /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto/cpu_stat.proto
+src/linux_Monitor/proto/cpu_stat.grpc.pb.h: /usr/local/bin/protoc-3.14.0.0
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Running grpc protocol buffer compiler on cpu_stat.proto"
+	cd /work/build/src/linux_Monitor/proto && /usr/local/bin/protoc-3.14.0.0 --grpc_out /work/build/src/linux_Monitor/proto -I /work/src/linux_Monitor/proto /work/src/linux_Monitor/proto/cpu_stat.proto
 
 src/linux_Monitor/proto/cpu_stat.grpc.pb.cc: src/linux_Monitor/proto/cpu_stat.grpc.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/cpu_stat.grpc.pb.cc
 
+src/linux_Monitor/proto/cpu_statPLUGIN: src/linux_Monitor/proto/cpu_stat.grpc.pb.h
+	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/cpu_statPLUGIN
+
+src/linux_Monitor/proto/cpu_statprotoc-gen-grpc$(EQUALS)/usr/local/bin/grpc_cpp_plugin: src/linux_Monitor/proto/cpu_stat.grpc.pb.h
+	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/cpu_statprotoc-gen-grpc=/usr/local/bin/grpc_cpp_plugin
+
 src/linux_Monitor/proto/mem_info.grpc.pb.h: ../src/linux_Monitor/proto/mem_info.proto
-src/linux_Monitor/proto/mem_info.grpc.pb.h: /usr/bin/protoc-3.12.2.0
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Running grpc protocol buffer compiler on mem_info.proto"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/protoc-3.12.2.0 --grpc_out /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto --plugin=protoc-gen-grpc=/usr/bin/grpc_cpp_plugin -I /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto/mem_info.proto
+src/linux_Monitor/proto/mem_info.grpc.pb.h: /usr/local/bin/protoc-3.14.0.0
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Running grpc protocol buffer compiler on mem_info.proto"
+	cd /work/build/src/linux_Monitor/proto && /usr/local/bin/protoc-3.14.0.0 --grpc_out /work/build/src/linux_Monitor/proto -I /work/src/linux_Monitor/proto /work/src/linux_Monitor/proto/mem_info.proto
 
 src/linux_Monitor/proto/mem_info.grpc.pb.cc: src/linux_Monitor/proto/mem_info.grpc.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/mem_info.grpc.pb.cc
 
+src/linux_Monitor/proto/mem_infoPLUGIN: src/linux_Monitor/proto/mem_info.grpc.pb.h
+	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/mem_infoPLUGIN
+
+src/linux_Monitor/proto/mem_infoprotoc-gen-grpc$(EQUALS)/usr/local/bin/grpc_cpp_plugin: src/linux_Monitor/proto/mem_info.grpc.pb.h
+	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/mem_infoprotoc-gen-grpc=/usr/local/bin/grpc_cpp_plugin
+
 src/linux_Monitor/proto/net_info.grpc.pb.h: ../src/linux_Monitor/proto/net_info.proto
-src/linux_Monitor/proto/net_info.grpc.pb.h: /usr/bin/protoc-3.12.2.0
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Running grpc protocol buffer compiler on net_info.proto"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/protoc-3.12.2.0 --grpc_out /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto --plugin=protoc-gen-grpc=/usr/bin/grpc_cpp_plugin -I /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto/net_info.proto
+src/linux_Monitor/proto/net_info.grpc.pb.h: /usr/local/bin/protoc-3.14.0.0
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Running grpc protocol buffer compiler on net_info.proto"
+	cd /work/build/src/linux_Monitor/proto && /usr/local/bin/protoc-3.14.0.0 --grpc_out /work/build/src/linux_Monitor/proto -I /work/src/linux_Monitor/proto /work/src/linux_Monitor/proto/net_info.proto
 
 src/linux_Monitor/proto/net_info.grpc.pb.cc: src/linux_Monitor/proto/net_info.grpc.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/net_info.grpc.pb.cc
 
+src/linux_Monitor/proto/net_infoPLUGIN: src/linux_Monitor/proto/net_info.grpc.pb.h
+	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/net_infoPLUGIN
+
+src/linux_Monitor/proto/net_infoprotoc-gen-grpc$(EQUALS)/usr/local/bin/grpc_cpp_plugin: src/linux_Monitor/proto/net_info.grpc.pb.h
+	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/net_infoprotoc-gen-grpc=/usr/local/bin/grpc_cpp_plugin
+
 src/linux_Monitor/proto/health.grpc.pb.h: ../src/linux_Monitor/proto/health.proto
-src/linux_Monitor/proto/health.grpc.pb.h: /usr/bin/protoc-3.12.2.0
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Running grpc protocol buffer compiler on health.proto"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/protoc-3.12.2.0 --grpc_out /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto --plugin=protoc-gen-grpc=/usr/bin/grpc_cpp_plugin -I /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto/health.proto
+src/linux_Monitor/proto/health.grpc.pb.h: /usr/local/bin/protoc-3.14.0.0
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Running grpc protocol buffer compiler on health.proto"
+	cd /work/build/src/linux_Monitor/proto && /usr/local/bin/protoc-3.14.0.0 --grpc_out /work/build/src/linux_Monitor/proto -I /work/src/linux_Monitor/proto /work/src/linux_Monitor/proto/health.proto
 
 src/linux_Monitor/proto/health.grpc.pb.cc: src/linux_Monitor/proto/health.grpc.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/health.grpc.pb.cc
 
+src/linux_Monitor/proto/healthPLUGIN: src/linux_Monitor/proto/health.grpc.pb.h
+	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/healthPLUGIN
+
+src/linux_Monitor/proto/healthprotoc-gen-grpc$(EQUALS)/usr/local/bin/grpc_cpp_plugin: src/linux_Monitor/proto/health.grpc.pb.h
+	@$(CMAKE_COMMAND) -E touch_nocreate src/linux_Monitor/proto/healthprotoc-gen-grpc=/usr/local/bin/grpc_cpp_plugin
+
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.pb.cc.o: src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/flags.make
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.pb.cc.o: src/linux_Monitor/proto/monitor_info.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.pb.cc.o"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/monitor_info.pb.cc.o -c /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/monitor_info.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.pb.cc.o"
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/monitor_info.pb.cc.o -c /work/build/src/linux_Monitor/proto/monitor_info.pb.cc
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor_proto.dir/monitor_info.pb.cc.i"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/monitor_info.pb.cc > CMakeFiles/monitor_proto.dir/monitor_info.pb.cc.i
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /work/build/src/linux_Monitor/proto/monitor_info.pb.cc > CMakeFiles/monitor_proto.dir/monitor_info.pb.cc.i
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor_proto.dir/monitor_info.pb.cc.s"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/monitor_info.pb.cc -o CMakeFiles/monitor_proto.dir/monitor_info.pb.cc.s
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /work/build/src/linux_Monitor/proto/monitor_info.pb.cc -o CMakeFiles/monitor_proto.dir/monitor_info.pb.cc.s
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.pb.cc.o: src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/flags.make
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.pb.cc.o: src/linux_Monitor/proto/cpu_load.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.pb.cc.o"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/cpu_load.pb.cc.o -c /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/cpu_load.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.pb.cc.o"
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/cpu_load.pb.cc.o -c /work/build/src/linux_Monitor/proto/cpu_load.pb.cc
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor_proto.dir/cpu_load.pb.cc.i"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/cpu_load.pb.cc > CMakeFiles/monitor_proto.dir/cpu_load.pb.cc.i
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /work/build/src/linux_Monitor/proto/cpu_load.pb.cc > CMakeFiles/monitor_proto.dir/cpu_load.pb.cc.i
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor_proto.dir/cpu_load.pb.cc.s"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/cpu_load.pb.cc -o CMakeFiles/monitor_proto.dir/cpu_load.pb.cc.s
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /work/build/src/linux_Monitor/proto/cpu_load.pb.cc -o CMakeFiles/monitor_proto.dir/cpu_load.pb.cc.s
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.pb.cc.o: src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/flags.make
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.pb.cc.o: src/linux_Monitor/proto/cpu_softirq.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.pb.cc.o"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/cpu_softirq.pb.cc.o -c /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/cpu_softirq.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.pb.cc.o"
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/cpu_softirq.pb.cc.o -c /work/build/src/linux_Monitor/proto/cpu_softirq.pb.cc
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor_proto.dir/cpu_softirq.pb.cc.i"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/cpu_softirq.pb.cc > CMakeFiles/monitor_proto.dir/cpu_softirq.pb.cc.i
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /work/build/src/linux_Monitor/proto/cpu_softirq.pb.cc > CMakeFiles/monitor_proto.dir/cpu_softirq.pb.cc.i
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor_proto.dir/cpu_softirq.pb.cc.s"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/cpu_softirq.pb.cc -o CMakeFiles/monitor_proto.dir/cpu_softirq.pb.cc.s
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /work/build/src/linux_Monitor/proto/cpu_softirq.pb.cc -o CMakeFiles/monitor_proto.dir/cpu_softirq.pb.cc.s
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.pb.cc.o: src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/flags.make
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.pb.cc.o: src/linux_Monitor/proto/cpu_stat.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.pb.cc.o"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/cpu_stat.pb.cc.o -c /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/cpu_stat.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.pb.cc.o"
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/cpu_stat.pb.cc.o -c /work/build/src/linux_Monitor/proto/cpu_stat.pb.cc
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor_proto.dir/cpu_stat.pb.cc.i"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/cpu_stat.pb.cc > CMakeFiles/monitor_proto.dir/cpu_stat.pb.cc.i
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /work/build/src/linux_Monitor/proto/cpu_stat.pb.cc > CMakeFiles/monitor_proto.dir/cpu_stat.pb.cc.i
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor_proto.dir/cpu_stat.pb.cc.s"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/cpu_stat.pb.cc -o CMakeFiles/monitor_proto.dir/cpu_stat.pb.cc.s
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /work/build/src/linux_Monitor/proto/cpu_stat.pb.cc -o CMakeFiles/monitor_proto.dir/cpu_stat.pb.cc.s
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.pb.cc.o: src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/flags.make
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.pb.cc.o: src/linux_Monitor/proto/mem_info.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.pb.cc.o"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/mem_info.pb.cc.o -c /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/mem_info.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.pb.cc.o"
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/mem_info.pb.cc.o -c /work/build/src/linux_Monitor/proto/mem_info.pb.cc
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor_proto.dir/mem_info.pb.cc.i"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/mem_info.pb.cc > CMakeFiles/monitor_proto.dir/mem_info.pb.cc.i
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /work/build/src/linux_Monitor/proto/mem_info.pb.cc > CMakeFiles/monitor_proto.dir/mem_info.pb.cc.i
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor_proto.dir/mem_info.pb.cc.s"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/mem_info.pb.cc -o CMakeFiles/monitor_proto.dir/mem_info.pb.cc.s
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /work/build/src/linux_Monitor/proto/mem_info.pb.cc -o CMakeFiles/monitor_proto.dir/mem_info.pb.cc.s
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.pb.cc.o: src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/flags.make
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.pb.cc.o: src/linux_Monitor/proto/net_info.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.pb.cc.o"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/net_info.pb.cc.o -c /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/net_info.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.pb.cc.o"
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/net_info.pb.cc.o -c /work/build/src/linux_Monitor/proto/net_info.pb.cc
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor_proto.dir/net_info.pb.cc.i"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/net_info.pb.cc > CMakeFiles/monitor_proto.dir/net_info.pb.cc.i
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /work/build/src/linux_Monitor/proto/net_info.pb.cc > CMakeFiles/monitor_proto.dir/net_info.pb.cc.i
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor_proto.dir/net_info.pb.cc.s"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/net_info.pb.cc -o CMakeFiles/monitor_proto.dir/net_info.pb.cc.s
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /work/build/src/linux_Monitor/proto/net_info.pb.cc -o CMakeFiles/monitor_proto.dir/net_info.pb.cc.s
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.pb.cc.o: src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/flags.make
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.pb.cc.o: src/linux_Monitor/proto/health.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.pb.cc.o"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/health.pb.cc.o -c /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/health.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.pb.cc.o"
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/health.pb.cc.o -c /work/build/src/linux_Monitor/proto/health.pb.cc
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor_proto.dir/health.pb.cc.i"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/health.pb.cc > CMakeFiles/monitor_proto.dir/health.pb.cc.i
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /work/build/src/linux_Monitor/proto/health.pb.cc > CMakeFiles/monitor_proto.dir/health.pb.cc.i
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor_proto.dir/health.pb.cc.s"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/health.pb.cc -o CMakeFiles/monitor_proto.dir/health.pb.cc.s
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /work/build/src/linux_Monitor/proto/health.pb.cc -o CMakeFiles/monitor_proto.dir/health.pb.cc.s
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.grpc.pb.cc.o: src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/flags.make
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.grpc.pb.cc.o: src/linux_Monitor/proto/monitor_info.grpc.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.grpc.pb.cc.o"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/monitor_info.grpc.pb.cc.o -c /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/monitor_info.grpc.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.grpc.pb.cc.o"
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/monitor_info.grpc.pb.cc.o -c /work/build/src/linux_Monitor/proto/monitor_info.grpc.pb.cc
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.grpc.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor_proto.dir/monitor_info.grpc.pb.cc.i"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/monitor_info.grpc.pb.cc > CMakeFiles/monitor_proto.dir/monitor_info.grpc.pb.cc.i
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /work/build/src/linux_Monitor/proto/monitor_info.grpc.pb.cc > CMakeFiles/monitor_proto.dir/monitor_info.grpc.pb.cc.i
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.grpc.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor_proto.dir/monitor_info.grpc.pb.cc.s"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/monitor_info.grpc.pb.cc -o CMakeFiles/monitor_proto.dir/monitor_info.grpc.pb.cc.s
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /work/build/src/linux_Monitor/proto/monitor_info.grpc.pb.cc -o CMakeFiles/monitor_proto.dir/monitor_info.grpc.pb.cc.s
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.grpc.pb.cc.o: src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/flags.make
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.grpc.pb.cc.o: src/linux_Monitor/proto/cpu_load.grpc.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.grpc.pb.cc.o"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/cpu_load.grpc.pb.cc.o -c /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/cpu_load.grpc.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.grpc.pb.cc.o"
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/cpu_load.grpc.pb.cc.o -c /work/build/src/linux_Monitor/proto/cpu_load.grpc.pb.cc
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.grpc.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor_proto.dir/cpu_load.grpc.pb.cc.i"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/cpu_load.grpc.pb.cc > CMakeFiles/monitor_proto.dir/cpu_load.grpc.pb.cc.i
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /work/build/src/linux_Monitor/proto/cpu_load.grpc.pb.cc > CMakeFiles/monitor_proto.dir/cpu_load.grpc.pb.cc.i
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.grpc.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor_proto.dir/cpu_load.grpc.pb.cc.s"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/cpu_load.grpc.pb.cc -o CMakeFiles/monitor_proto.dir/cpu_load.grpc.pb.cc.s
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /work/build/src/linux_Monitor/proto/cpu_load.grpc.pb.cc -o CMakeFiles/monitor_proto.dir/cpu_load.grpc.pb.cc.s
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.grpc.pb.cc.o: src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/flags.make
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.grpc.pb.cc.o: src/linux_Monitor/proto/cpu_softirq.grpc.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.grpc.pb.cc.o"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/cpu_softirq.grpc.pb.cc.o -c /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/cpu_softirq.grpc.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.grpc.pb.cc.o"
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/cpu_softirq.grpc.pb.cc.o -c /work/build/src/linux_Monitor/proto/cpu_softirq.grpc.pb.cc
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.grpc.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor_proto.dir/cpu_softirq.grpc.pb.cc.i"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/cpu_softirq.grpc.pb.cc > CMakeFiles/monitor_proto.dir/cpu_softirq.grpc.pb.cc.i
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /work/build/src/linux_Monitor/proto/cpu_softirq.grpc.pb.cc > CMakeFiles/monitor_proto.dir/cpu_softirq.grpc.pb.cc.i
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.grpc.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor_proto.dir/cpu_softirq.grpc.pb.cc.s"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/cpu_softirq.grpc.pb.cc -o CMakeFiles/monitor_proto.dir/cpu_softirq.grpc.pb.cc.s
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /work/build/src/linux_Monitor/proto/cpu_softirq.grpc.pb.cc -o CMakeFiles/monitor_proto.dir/cpu_softirq.grpc.pb.cc.s
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.grpc.pb.cc.o: src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/flags.make
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.grpc.pb.cc.o: src/linux_Monitor/proto/cpu_stat.grpc.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.grpc.pb.cc.o"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/cpu_stat.grpc.pb.cc.o -c /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/cpu_stat.grpc.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.grpc.pb.cc.o"
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/cpu_stat.grpc.pb.cc.o -c /work/build/src/linux_Monitor/proto/cpu_stat.grpc.pb.cc
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.grpc.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor_proto.dir/cpu_stat.grpc.pb.cc.i"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/cpu_stat.grpc.pb.cc > CMakeFiles/monitor_proto.dir/cpu_stat.grpc.pb.cc.i
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /work/build/src/linux_Monitor/proto/cpu_stat.grpc.pb.cc > CMakeFiles/monitor_proto.dir/cpu_stat.grpc.pb.cc.i
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.grpc.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor_proto.dir/cpu_stat.grpc.pb.cc.s"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/cpu_stat.grpc.pb.cc -o CMakeFiles/monitor_proto.dir/cpu_stat.grpc.pb.cc.s
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /work/build/src/linux_Monitor/proto/cpu_stat.grpc.pb.cc -o CMakeFiles/monitor_proto.dir/cpu_stat.grpc.pb.cc.s
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.grpc.pb.cc.o: src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/flags.make
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.grpc.pb.cc.o: src/linux_Monitor/proto/mem_info.grpc.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.grpc.pb.cc.o"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/mem_info.grpc.pb.cc.o -c /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/mem_info.grpc.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.grpc.pb.cc.o"
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/mem_info.grpc.pb.cc.o -c /work/build/src/linux_Monitor/proto/mem_info.grpc.pb.cc
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.grpc.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor_proto.dir/mem_info.grpc.pb.cc.i"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/mem_info.grpc.pb.cc > CMakeFiles/monitor_proto.dir/mem_info.grpc.pb.cc.i
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /work/build/src/linux_Monitor/proto/mem_info.grpc.pb.cc > CMakeFiles/monitor_proto.dir/mem_info.grpc.pb.cc.i
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.grpc.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor_proto.dir/mem_info.grpc.pb.cc.s"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/mem_info.grpc.pb.cc -o CMakeFiles/monitor_proto.dir/mem_info.grpc.pb.cc.s
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /work/build/src/linux_Monitor/proto/mem_info.grpc.pb.cc -o CMakeFiles/monitor_proto.dir/mem_info.grpc.pb.cc.s
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.grpc.pb.cc.o: src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/flags.make
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.grpc.pb.cc.o: src/linux_Monitor/proto/net_info.grpc.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.grpc.pb.cc.o"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/net_info.grpc.pb.cc.o -c /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/net_info.grpc.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.grpc.pb.cc.o"
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/net_info.grpc.pb.cc.o -c /work/build/src/linux_Monitor/proto/net_info.grpc.pb.cc
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.grpc.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor_proto.dir/net_info.grpc.pb.cc.i"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/net_info.grpc.pb.cc > CMakeFiles/monitor_proto.dir/net_info.grpc.pb.cc.i
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /work/build/src/linux_Monitor/proto/net_info.grpc.pb.cc > CMakeFiles/monitor_proto.dir/net_info.grpc.pb.cc.i
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.grpc.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor_proto.dir/net_info.grpc.pb.cc.s"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/net_info.grpc.pb.cc -o CMakeFiles/monitor_proto.dir/net_info.grpc.pb.cc.s
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /work/build/src/linux_Monitor/proto/net_info.grpc.pb.cc -o CMakeFiles/monitor_proto.dir/net_info.grpc.pb.cc.s
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.grpc.pb.cc.o: src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/flags.make
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.grpc.pb.cc.o: src/linux_Monitor/proto/health.grpc.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.grpc.pb.cc.o"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/health.grpc.pb.cc.o -c /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/health.grpc.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.grpc.pb.cc.o"
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor_proto.dir/health.grpc.pb.cc.o -c /work/build/src/linux_Monitor/proto/health.grpc.pb.cc
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.grpc.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor_proto.dir/health.grpc.pb.cc.i"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/health.grpc.pb.cc > CMakeFiles/monitor_proto.dir/health.grpc.pb.cc.i
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /work/build/src/linux_Monitor/proto/health.grpc.pb.cc > CMakeFiles/monitor_proto.dir/health.grpc.pb.cc.i
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.grpc.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor_proto.dir/health.grpc.pb.cc.s"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/health.grpc.pb.cc -o CMakeFiles/monitor_proto.dir/health.grpc.pb.cc.s
+	cd /work/build/src/linux_Monitor/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /work/build/src/linux_Monitor/proto/health.grpc.pb.cc -o CMakeFiles/monitor_proto.dir/health.grpc.pb.cc.s
 
 # Object files for target monitor_proto
 monitor_proto_OBJECTS = \
@@ -386,33 +428,33 @@ monitor_proto_EXTERNAL_OBJECTS =
 ../lib/libmonitor_proto.so: src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.grpc.pb.cc.o
 ../lib/libmonitor_proto.so: src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.grpc.pb.cc.o
 ../lib/libmonitor_proto.so: src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make
-../lib/libmonitor_proto.so: /usr/lib/libgrpc++.so.1.30.3
-../lib/libmonitor_proto.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so.3.12.2.0
-../lib/libmonitor_proto.so: /usr/lib/libgrpc.so.10.0.0
-../lib/libmonitor_proto.so: /usr/lib/libssl.so
-../lib/libmonitor_proto.so: /usr/lib/libcrypto.so
-../lib/libmonitor_proto.so: /usr/lib/libz.a
-../lib/libmonitor_proto.so: /usr/lib/libcares.a
-../lib/libmonitor_proto.so: /usr/lib/libabsl_bad_optional_access.so
-../lib/libmonitor_proto.so: /usr/lib/libaddress_sorting.so.10.0.0
-../lib/libmonitor_proto.so: /usr/lib/libupb.so.10.0.0
-../lib/libmonitor_proto.so: /usr/lib/libgpr.so.10.0.0
-../lib/libmonitor_proto.so: /usr/lib/libabsl_time.so
-../lib/libmonitor_proto.so: /usr/lib/libabsl_civil_time.so
-../lib/libmonitor_proto.so: /usr/lib/libabsl_time_zone.so
-../lib/libmonitor_proto.so: /usr/lib/libabsl_str_format_internal.so
-../lib/libmonitor_proto.so: /usr/lib/libabsl_strings.so
-../lib/libmonitor_proto.so: /usr/lib/libabsl_strings_internal.so
-../lib/libmonitor_proto.so: /usr/lib/libabsl_base.so
-../lib/libmonitor_proto.so: /usr/lib/libabsl_dynamic_annotations.so
-../lib/libmonitor_proto.so: /usr/lib/libabsl_spinlock_wait.so
-../lib/libmonitor_proto.so: /usr/lib/libabsl_int128.so
-../lib/libmonitor_proto.so: /usr/lib/libabsl_throw_delegate.so
-../lib/libmonitor_proto.so: /usr/lib/libabsl_raw_logging_internal.so
-../lib/libmonitor_proto.so: /usr/lib/libabsl_log_severity.so
+../lib/libmonitor_proto.so: /usr/local/lib/libgrpc++.so.1.30.0
+../lib/libmonitor_proto.so: /usr/local/lib/libprotobuf.so.3.14.0.0
+../lib/libmonitor_proto.so: /usr/local/lib/libgrpc.so.10.0.0
+../lib/libmonitor_proto.so: /usr/local/lib/libz.so
+../lib/libmonitor_proto.so: /usr/lib/x86_64-linux-gnu/libssl.so
+../lib/libmonitor_proto.so: /usr/lib/x86_64-linux-gnu/libcrypto.so
+../lib/libmonitor_proto.so: /usr/lib/x86_64-linux-gnu/libcares.so
+../lib/libmonitor_proto.so: /usr/local/lib/libabsl_bad_optional_access.so
+../lib/libmonitor_proto.so: /usr/local/lib/libaddress_sorting.so.10.0.0
+../lib/libmonitor_proto.so: /usr/local/lib/libupb.so.10.0.0
+../lib/libmonitor_proto.so: /usr/local/lib/libgpr.so.10.0.0
+../lib/libmonitor_proto.so: /usr/local/lib/libabsl_time.so
+../lib/libmonitor_proto.so: /usr/local/lib/libabsl_civil_time.so
+../lib/libmonitor_proto.so: /usr/local/lib/libabsl_time_zone.so
+../lib/libmonitor_proto.so: /usr/local/lib/libabsl_str_format_internal.so
+../lib/libmonitor_proto.so: /usr/local/lib/libabsl_strings.so
+../lib/libmonitor_proto.so: /usr/local/lib/libabsl_strings_internal.so
+../lib/libmonitor_proto.so: /usr/local/lib/libabsl_base.so
+../lib/libmonitor_proto.so: /usr/local/lib/libabsl_dynamic_annotations.so
+../lib/libmonitor_proto.so: /usr/local/lib/libabsl_spinlock_wait.so
+../lib/libmonitor_proto.so: /usr/local/lib/libabsl_int128.so
+../lib/libmonitor_proto.so: /usr/local/lib/libabsl_throw_delegate.so
+../lib/libmonitor_proto.so: /usr/local/lib/libabsl_raw_logging_internal.so
+../lib/libmonitor_proto.so: /usr/local/lib/libabsl_log_severity.so
 ../lib/libmonitor_proto.so: src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX shared library ../../../../lib/libmonitor_proto.so"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/monitor_proto.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX shared library ../../../../lib/libmonitor_proto.so"
+	cd /work/build/src/linux_Monitor/proto && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/monitor_proto.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build: ../lib/libmonitor_proto.so
@@ -420,7 +462,7 @@ src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build: ../lib/libmonitor_pr
 .PHONY : src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/clean:
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto && $(CMAKE_COMMAND) -P CMakeFiles/monitor_proto.dir/cmake_clean.cmake
+	cd /work/build/src/linux_Monitor/proto && $(CMAKE_COMMAND) -P CMakeFiles/monitor_proto.dir/cmake_clean.cmake
 .PHONY : src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/clean
 
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/monitor_info.pb.h
@@ -439,18 +481,32 @@ src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/p
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/health.pb.cc
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/monitor_info.grpc.pb.h
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/monitor_info.grpc.pb.cc
+src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/monitor_infoPLUGIN
+src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/monitor_infoprotoc-gen-grpc$(EQUALS)/usr/local/bin/grpc_cpp_plugin
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/cpu_load.grpc.pb.h
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/cpu_load.grpc.pb.cc
+src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/cpu_loadPLUGIN
+src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/cpu_loadprotoc-gen-grpc$(EQUALS)/usr/local/bin/grpc_cpp_plugin
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/cpu_softirq.grpc.pb.h
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/cpu_softirq.grpc.pb.cc
+src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/cpu_softirqPLUGIN
+src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/cpu_softirqprotoc-gen-grpc$(EQUALS)/usr/local/bin/grpc_cpp_plugin
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/cpu_stat.grpc.pb.h
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/cpu_stat.grpc.pb.cc
+src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/cpu_statPLUGIN
+src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/cpu_statprotoc-gen-grpc$(EQUALS)/usr/local/bin/grpc_cpp_plugin
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/mem_info.grpc.pb.h
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/mem_info.grpc.pb.cc
+src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/mem_infoPLUGIN
+src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/mem_infoprotoc-gen-grpc$(EQUALS)/usr/local/bin/grpc_cpp_plugin
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/net_info.grpc.pb.h
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/net_info.grpc.pb.cc
+src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/net_infoPLUGIN
+src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/net_infoprotoc-gen-grpc$(EQUALS)/usr/local/bin/grpc_cpp_plugin
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/health.grpc.pb.h
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/health.grpc.pb.cc
-	cd /home/u/Desktop/myNewRpcProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/u/Desktop/myNewRpcProject /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto /home/u/Desktop/myNewRpcProject/build /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/DependInfo.cmake --color=$(COLOR)
+src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/healthPLUGIN
+src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend: src/linux_Monitor/proto/healthprotoc-gen-grpc$(EQUALS)/usr/local/bin/grpc_cpp_plugin
+	cd /work/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /work /work/src/linux_Monitor/proto /work/build /work/build/src/linux_Monitor/proto /work/build/src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/depend
 

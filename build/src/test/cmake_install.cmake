@@ -1,4 +1,4 @@
-# Install script for directory: /home/u/Desktop/myNewRpcProject/src/test
+# Install script for directory: /work/src/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

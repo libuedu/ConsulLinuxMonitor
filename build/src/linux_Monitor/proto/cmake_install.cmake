@@ -1,4 +1,4 @@
-# Install script for directory: /home/u/Desktop/myNewRpcProject/src/linux_Monitor/proto
+# Install script for directory: /work/src/linux_Monitor/proto
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

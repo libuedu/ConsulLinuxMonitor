@@ -1,4 +1,4 @@
-# Install script for directory: /home/u/Desktop/myNewRpcProject/src/linux_Monitor/Linux_Monitor
+# Install script for directory: /work/src/linux_Monitor/Linux_Monitor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/Linux_Monitor/src/cmake_install.cmake")
+  include("/work/build/src/linux_Monitor/Linux_Monitor/src/cmake_install.cmake")
 endif()
 

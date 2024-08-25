@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/u/Desktop/myNewRpcProject
+CMAKE_SOURCE_DIR = /work
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/u/Desktop/myNewRpcProject/build
+CMAKE_BINARY_DIR = /work/build
 
 # Include any dependencies generated for this target.
 include src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/depend.make
@@ -59,16 +59,16 @@ include src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/flags.ma
 
 src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/rpc_manager.cpp.o: src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/flags.make
 src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/rpc_manager.cpp.o: ../src/linux_Monitor/rpc_manager/server/rpc_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/rpc_manager.cpp.o"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/rpc_manager/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpc_manager.dir/rpc_manager.cpp.o -c /home/u/Desktop/myNewRpcProject/src/linux_Monitor/rpc_manager/server/rpc_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/rpc_manager.cpp.o"
+	cd /work/build/src/linux_Monitor/rpc_manager/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpc_manager.dir/rpc_manager.cpp.o -c /work/src/linux_Monitor/rpc_manager/server/rpc_manager.cpp
 
 src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/rpc_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpc_manager.dir/rpc_manager.cpp.i"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/rpc_manager/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/u/Desktop/myNewRpcProject/src/linux_Monitor/rpc_manager/server/rpc_manager.cpp > CMakeFiles/rpc_manager.dir/rpc_manager.cpp.i
+	cd /work/build/src/linux_Monitor/rpc_manager/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /work/src/linux_Monitor/rpc_manager/server/rpc_manager.cpp > CMakeFiles/rpc_manager.dir/rpc_manager.cpp.i
 
 src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/rpc_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpc_manager.dir/rpc_manager.cpp.s"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/rpc_manager/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/u/Desktop/myNewRpcProject/src/linux_Monitor/rpc_manager/server/rpc_manager.cpp -o CMakeFiles/rpc_manager.dir/rpc_manager.cpp.s
+	cd /work/build/src/linux_Monitor/rpc_manager/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /work/src/linux_Monitor/rpc_manager/server/rpc_manager.cpp -o CMakeFiles/rpc_manager.dir/rpc_manager.cpp.s
 
 # Object files for target rpc_manager
 rpc_manager_OBJECTS = \
@@ -81,33 +81,33 @@ rpc_manager_EXTERNAL_OBJECTS =
 ../lib/librpc_manager.so: src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/build.make
 ../lib/librpc_manager.so: ../lib/libmonitor_proto.so
 ../lib/librpc_manager.so: /usr/local/lib/libcpr.so
-../lib/librpc_manager.so: /usr/lib/libgrpc++.so.1.30.3
-../lib/librpc_manager.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so.3.12.2.0
-../lib/librpc_manager.so: /usr/lib/libgrpc.so.10.0.0
-../lib/librpc_manager.so: /usr/lib/libssl.so
-../lib/librpc_manager.so: /usr/lib/libcrypto.so
-../lib/librpc_manager.so: /usr/lib/libz.a
-../lib/librpc_manager.so: /usr/lib/libcares.a
-../lib/librpc_manager.so: /usr/lib/libabsl_bad_optional_access.so
-../lib/librpc_manager.so: /usr/lib/libaddress_sorting.so.10.0.0
-../lib/librpc_manager.so: /usr/lib/libupb.so.10.0.0
-../lib/librpc_manager.so: /usr/lib/libgpr.so.10.0.0
-../lib/librpc_manager.so: /usr/lib/libabsl_time.so
-../lib/librpc_manager.so: /usr/lib/libabsl_civil_time.so
-../lib/librpc_manager.so: /usr/lib/libabsl_time_zone.so
-../lib/librpc_manager.so: /usr/lib/libabsl_str_format_internal.so
-../lib/librpc_manager.so: /usr/lib/libabsl_strings.so
-../lib/librpc_manager.so: /usr/lib/libabsl_strings_internal.so
-../lib/librpc_manager.so: /usr/lib/libabsl_base.so
-../lib/librpc_manager.so: /usr/lib/libabsl_dynamic_annotations.so
-../lib/librpc_manager.so: /usr/lib/libabsl_spinlock_wait.so
-../lib/librpc_manager.so: /usr/lib/libabsl_int128.so
-../lib/librpc_manager.so: /usr/lib/libabsl_throw_delegate.so
-../lib/librpc_manager.so: /usr/lib/libabsl_raw_logging_internal.so
-../lib/librpc_manager.so: /usr/lib/libabsl_log_severity.so
+../lib/librpc_manager.so: /usr/local/lib/libgrpc++.so.1.30.0
+../lib/librpc_manager.so: /usr/local/lib/libprotobuf.so.3.14.0.0
+../lib/librpc_manager.so: /usr/local/lib/libgrpc.so.10.0.0
+../lib/librpc_manager.so: /usr/local/lib/libz.so
+../lib/librpc_manager.so: /usr/lib/x86_64-linux-gnu/libssl.so
+../lib/librpc_manager.so: /usr/lib/x86_64-linux-gnu/libcrypto.so
+../lib/librpc_manager.so: /usr/lib/x86_64-linux-gnu/libcares.so
+../lib/librpc_manager.so: /usr/local/lib/libabsl_bad_optional_access.so
+../lib/librpc_manager.so: /usr/local/lib/libaddress_sorting.so.10.0.0
+../lib/librpc_manager.so: /usr/local/lib/libupb.so.10.0.0
+../lib/librpc_manager.so: /usr/local/lib/libgpr.so.10.0.0
+../lib/librpc_manager.so: /usr/local/lib/libabsl_time.so
+../lib/librpc_manager.so: /usr/local/lib/libabsl_civil_time.so
+../lib/librpc_manager.so: /usr/local/lib/libabsl_time_zone.so
+../lib/librpc_manager.so: /usr/local/lib/libabsl_str_format_internal.so
+../lib/librpc_manager.so: /usr/local/lib/libabsl_strings.so
+../lib/librpc_manager.so: /usr/local/lib/libabsl_strings_internal.so
+../lib/librpc_manager.so: /usr/local/lib/libabsl_base.so
+../lib/librpc_manager.so: /usr/local/lib/libabsl_dynamic_annotations.so
+../lib/librpc_manager.so: /usr/local/lib/libabsl_spinlock_wait.so
+../lib/librpc_manager.so: /usr/local/lib/libabsl_int128.so
+../lib/librpc_manager.so: /usr/local/lib/libabsl_throw_delegate.so
+../lib/librpc_manager.so: /usr/local/lib/libabsl_raw_logging_internal.so
+../lib/librpc_manager.so: /usr/local/lib/libabsl_log_severity.so
 ../lib/librpc_manager.so: src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../../../../../lib/librpc_manager.so"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/rpc_manager/server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rpc_manager.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../../../../../lib/librpc_manager.so"
+	cd /work/build/src/linux_Monitor/rpc_manager/server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rpc_manager.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/build: ../lib/librpc_manager.so
@@ -115,10 +115,10 @@ src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/build: ../lib/li
 .PHONY : src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/build
 
 src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/clean:
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/rpc_manager/server && $(CMAKE_COMMAND) -P CMakeFiles/rpc_manager.dir/cmake_clean.cmake
+	cd /work/build/src/linux_Monitor/rpc_manager/server && $(CMAKE_COMMAND) -P CMakeFiles/rpc_manager.dir/cmake_clean.cmake
 .PHONY : src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/clean
 
 src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/depend:
-	cd /home/u/Desktop/myNewRpcProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/u/Desktop/myNewRpcProject /home/u/Desktop/myNewRpcProject/src/linux_Monitor/rpc_manager/server /home/u/Desktop/myNewRpcProject/build /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/rpc_manager/server /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/DependInfo.cmake --color=$(COLOR)
+	cd /work/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /work /work/src/linux_Monitor/rpc_manager/server /work/build /work/build/src/linux_Monitor/rpc_manager/server /work/build/src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/depend
 

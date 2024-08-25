@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/u/Desktop/myNewRpcProject
+CMAKE_SOURCE_DIR = /work
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/u/Desktop/myNewRpcProject/build
+CMAKE_BINARY_DIR = /work/build
 
 # Include any dependencies generated for this target.
 include src/linux_Monitor/common/CMakeFiles/common.dir/depend.make
@@ -59,29 +59,29 @@ include src/linux_Monitor/common/CMakeFiles/common.dir/flags.make
 
 src/linux_Monitor/common/CMakeFiles/common.dir/common.cpp.o: src/linux_Monitor/common/CMakeFiles/common.dir/flags.make
 src/linux_Monitor/common/CMakeFiles/common.dir/common.cpp.o: ../src/linux_Monitor/common/common.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/linux_Monitor/common/CMakeFiles/common.dir/common.cpp.o"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/common.cpp.o -c /home/u/Desktop/myNewRpcProject/src/linux_Monitor/common/common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/linux_Monitor/common/CMakeFiles/common.dir/common.cpp.o"
+	cd /work/build/src/linux_Monitor/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/common.cpp.o -c /work/src/linux_Monitor/common/common.cpp
 
 src/linux_Monitor/common/CMakeFiles/common.dir/common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/common.cpp.i"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/u/Desktop/myNewRpcProject/src/linux_Monitor/common/common.cpp > CMakeFiles/common.dir/common.cpp.i
+	cd /work/build/src/linux_Monitor/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /work/src/linux_Monitor/common/common.cpp > CMakeFiles/common.dir/common.cpp.i
 
 src/linux_Monitor/common/CMakeFiles/common.dir/common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/common.cpp.s"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/u/Desktop/myNewRpcProject/src/linux_Monitor/common/common.cpp -o CMakeFiles/common.dir/common.cpp.s
+	cd /work/build/src/linux_Monitor/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /work/src/linux_Monitor/common/common.cpp -o CMakeFiles/common.dir/common.cpp.s
 
 src/linux_Monitor/common/CMakeFiles/common.dir/myLog.cpp.o: src/linux_Monitor/common/CMakeFiles/common.dir/flags.make
 src/linux_Monitor/common/CMakeFiles/common.dir/myLog.cpp.o: ../src/linux_Monitor/common/myLog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/linux_Monitor/common/CMakeFiles/common.dir/myLog.cpp.o"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/myLog.cpp.o -c /home/u/Desktop/myNewRpcProject/src/linux_Monitor/common/myLog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/linux_Monitor/common/CMakeFiles/common.dir/myLog.cpp.o"
+	cd /work/build/src/linux_Monitor/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/myLog.cpp.o -c /work/src/linux_Monitor/common/myLog.cpp
 
 src/linux_Monitor/common/CMakeFiles/common.dir/myLog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/myLog.cpp.i"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/u/Desktop/myNewRpcProject/src/linux_Monitor/common/myLog.cpp > CMakeFiles/common.dir/myLog.cpp.i
+	cd /work/build/src/linux_Monitor/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /work/src/linux_Monitor/common/myLog.cpp > CMakeFiles/common.dir/myLog.cpp.i
 
 src/linux_Monitor/common/CMakeFiles/common.dir/myLog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/myLog.cpp.s"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/u/Desktop/myNewRpcProject/src/linux_Monitor/common/myLog.cpp -o CMakeFiles/common.dir/myLog.cpp.s
+	cd /work/build/src/linux_Monitor/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /work/src/linux_Monitor/common/myLog.cpp -o CMakeFiles/common.dir/myLog.cpp.s
 
 # Object files for target common
 common_OBJECTS = \
@@ -95,8 +95,8 @@ common_EXTERNAL_OBJECTS =
 ../lib/libcommon.so: src/linux_Monitor/common/CMakeFiles/common.dir/myLog.cpp.o
 ../lib/libcommon.so: src/linux_Monitor/common/CMakeFiles/common.dir/build.make
 ../lib/libcommon.so: src/linux_Monitor/common/CMakeFiles/common.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library ../../../../lib/libcommon.so"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/common.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library ../../../../lib/libcommon.so"
+	cd /work/build/src/linux_Monitor/common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/common.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/linux_Monitor/common/CMakeFiles/common.dir/build: ../lib/libcommon.so
@@ -104,10 +104,10 @@ src/linux_Monitor/common/CMakeFiles/common.dir/build: ../lib/libcommon.so
 .PHONY : src/linux_Monitor/common/CMakeFiles/common.dir/build
 
 src/linux_Monitor/common/CMakeFiles/common.dir/clean:
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean.cmake
+	cd /work/build/src/linux_Monitor/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean.cmake
 .PHONY : src/linux_Monitor/common/CMakeFiles/common.dir/clean
 
 src/linux_Monitor/common/CMakeFiles/common.dir/depend:
-	cd /home/u/Desktop/myNewRpcProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/u/Desktop/myNewRpcProject /home/u/Desktop/myNewRpcProject/src/linux_Monitor/common /home/u/Desktop/myNewRpcProject/build /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/common /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/common/CMakeFiles/common.dir/DependInfo.cmake --color=$(COLOR)
+	cd /work/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /work /work/src/linux_Monitor/common /work/build /work/build/src/linux_Monitor/common /work/build/src/linux_Monitor/common/CMakeFiles/common.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/linux_Monitor/common/CMakeFiles/common.dir/depend
 

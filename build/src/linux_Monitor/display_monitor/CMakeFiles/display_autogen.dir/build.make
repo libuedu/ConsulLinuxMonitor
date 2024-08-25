@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/u/Desktop/myNewRpcProject
+CMAKE_SOURCE_DIR = /work
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/u/Desktop/myNewRpcProject/build
+CMAKE_BINARY_DIR = /work/build
 
 # Utility rule file for display_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/u/Desktop/myNewRpcProject/build
 include src/linux_Monitor/display_monitor/CMakeFiles/display_autogen.dir/progress.make
 
 src/linux_Monitor/display_monitor/CMakeFiles/display_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/u/Desktop/myNewRpcProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target display"
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/display_monitor && /usr/bin/cmake -E cmake_autogen /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/display_monitor/CMakeFiles/display_autogen.dir/AutogenInfo.json Release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target display"
+	cd /work/build/src/linux_Monitor/display_monitor && /usr/bin/cmake -E cmake_autogen /work/build/src/linux_Monitor/display_monitor/CMakeFiles/display_autogen.dir/AutogenInfo.json Release
 
 display_autogen: src/linux_Monitor/display_monitor/CMakeFiles/display_autogen
 display_autogen: src/linux_Monitor/display_monitor/CMakeFiles/display_autogen.dir/build.make
@@ -68,10 +68,10 @@ src/linux_Monitor/display_monitor/CMakeFiles/display_autogen.dir/build: display_
 .PHONY : src/linux_Monitor/display_monitor/CMakeFiles/display_autogen.dir/build
 
 src/linux_Monitor/display_monitor/CMakeFiles/display_autogen.dir/clean:
-	cd /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/display_monitor && $(CMAKE_COMMAND) -P CMakeFiles/display_autogen.dir/cmake_clean.cmake
+	cd /work/build/src/linux_Monitor/display_monitor && $(CMAKE_COMMAND) -P CMakeFiles/display_autogen.dir/cmake_clean.cmake
 .PHONY : src/linux_Monitor/display_monitor/CMakeFiles/display_autogen.dir/clean
 
 src/linux_Monitor/display_monitor/CMakeFiles/display_autogen.dir/depend:
-	cd /home/u/Desktop/myNewRpcProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/u/Desktop/myNewRpcProject /home/u/Desktop/myNewRpcProject/src/linux_Monitor/display_monitor /home/u/Desktop/myNewRpcProject/build /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/display_monitor /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/display_monitor/CMakeFiles/display_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /work/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /work /work/src/linux_Monitor/display_monitor /work/build /work/build/src/linux_Monitor/display_monitor /work/build/src/linux_Monitor/display_monitor/CMakeFiles/display_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/linux_Monitor/display_monitor/CMakeFiles/display_autogen.dir/depend
 

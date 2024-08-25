@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/u/Desktop/myNewRpcProject
+CMAKE_SOURCE_DIR = /work
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/u/Desktop/myNewRpcProject/build
+CMAKE_BINARY_DIR = /work/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/u/Desktop/myNewRpcProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/u/Desktop/myNewRpcProject/build/CMakeFiles /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/CMakeFiles/progress.marks
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/proto/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/u/Desktop/myNewRpcProject/build/CMakeFiles 0
+	cd /work/build && $(CMAKE_COMMAND) -E cmake_progress_start /work/build/CMakeFiles /work/build/src/linux_Monitor/proto/CMakeFiles/progress.marks
+	cd /work/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/proto/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /work/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/proto/clean
+	cd /work/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/proto/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/proto/preinstall
+	cd /work/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/proto/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/proto/preinstall
+	cd /work/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/proto/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/u/Desktop/myNewRpcProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /work/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/rule:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/rule
+	cd /work/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/rule
 .PHONY : src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ monitor_proto: src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/rule
 
 # fast build rule for target.
 monitor_proto/fast:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build
 .PHONY : monitor_proto/fast
 
 cpu_load.grpc.pb.o: cpu_load.grpc.pb.cc.o
@@ -131,7 +131,7 @@ cpu_load.grpc.pb.o: cpu_load.grpc.pb.cc.o
 
 # target to build an object file
 cpu_load.grpc.pb.cc.o:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.grpc.pb.cc.o
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.grpc.pb.cc.o
 .PHONY : cpu_load.grpc.pb.cc.o
 
 cpu_load.grpc.pb.i: cpu_load.grpc.pb.cc.i
@@ -140,7 +140,7 @@ cpu_load.grpc.pb.i: cpu_load.grpc.pb.cc.i
 
 # target to preprocess a source file
 cpu_load.grpc.pb.cc.i:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.grpc.pb.cc.i
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.grpc.pb.cc.i
 .PHONY : cpu_load.grpc.pb.cc.i
 
 cpu_load.grpc.pb.s: cpu_load.grpc.pb.cc.s
@@ -149,7 +149,7 @@ cpu_load.grpc.pb.s: cpu_load.grpc.pb.cc.s
 
 # target to generate assembly for a file
 cpu_load.grpc.pb.cc.s:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.grpc.pb.cc.s
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.grpc.pb.cc.s
 .PHONY : cpu_load.grpc.pb.cc.s
 
 cpu_load.pb.o: cpu_load.pb.cc.o
@@ -158,7 +158,7 @@ cpu_load.pb.o: cpu_load.pb.cc.o
 
 # target to build an object file
 cpu_load.pb.cc.o:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.pb.cc.o
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.pb.cc.o
 .PHONY : cpu_load.pb.cc.o
 
 cpu_load.pb.i: cpu_load.pb.cc.i
@@ -167,7 +167,7 @@ cpu_load.pb.i: cpu_load.pb.cc.i
 
 # target to preprocess a source file
 cpu_load.pb.cc.i:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.pb.cc.i
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.pb.cc.i
 .PHONY : cpu_load.pb.cc.i
 
 cpu_load.pb.s: cpu_load.pb.cc.s
@@ -176,7 +176,7 @@ cpu_load.pb.s: cpu_load.pb.cc.s
 
 # target to generate assembly for a file
 cpu_load.pb.cc.s:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.pb.cc.s
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.pb.cc.s
 .PHONY : cpu_load.pb.cc.s
 
 cpu_softirq.grpc.pb.o: cpu_softirq.grpc.pb.cc.o
@@ -185,7 +185,7 @@ cpu_softirq.grpc.pb.o: cpu_softirq.grpc.pb.cc.o
 
 # target to build an object file
 cpu_softirq.grpc.pb.cc.o:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.grpc.pb.cc.o
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.grpc.pb.cc.o
 .PHONY : cpu_softirq.grpc.pb.cc.o
 
 cpu_softirq.grpc.pb.i: cpu_softirq.grpc.pb.cc.i
@@ -194,7 +194,7 @@ cpu_softirq.grpc.pb.i: cpu_softirq.grpc.pb.cc.i
 
 # target to preprocess a source file
 cpu_softirq.grpc.pb.cc.i:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.grpc.pb.cc.i
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.grpc.pb.cc.i
 .PHONY : cpu_softirq.grpc.pb.cc.i
 
 cpu_softirq.grpc.pb.s: cpu_softirq.grpc.pb.cc.s
@@ -203,7 +203,7 @@ cpu_softirq.grpc.pb.s: cpu_softirq.grpc.pb.cc.s
 
 # target to generate assembly for a file
 cpu_softirq.grpc.pb.cc.s:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.grpc.pb.cc.s
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.grpc.pb.cc.s
 .PHONY : cpu_softirq.grpc.pb.cc.s
 
 cpu_softirq.pb.o: cpu_softirq.pb.cc.o
@@ -212,7 +212,7 @@ cpu_softirq.pb.o: cpu_softirq.pb.cc.o
 
 # target to build an object file
 cpu_softirq.pb.cc.o:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.pb.cc.o
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.pb.cc.o
 .PHONY : cpu_softirq.pb.cc.o
 
 cpu_softirq.pb.i: cpu_softirq.pb.cc.i
@@ -221,7 +221,7 @@ cpu_softirq.pb.i: cpu_softirq.pb.cc.i
 
 # target to preprocess a source file
 cpu_softirq.pb.cc.i:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.pb.cc.i
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.pb.cc.i
 .PHONY : cpu_softirq.pb.cc.i
 
 cpu_softirq.pb.s: cpu_softirq.pb.cc.s
@@ -230,7 +230,7 @@ cpu_softirq.pb.s: cpu_softirq.pb.cc.s
 
 # target to generate assembly for a file
 cpu_softirq.pb.cc.s:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.pb.cc.s
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.pb.cc.s
 .PHONY : cpu_softirq.pb.cc.s
 
 cpu_stat.grpc.pb.o: cpu_stat.grpc.pb.cc.o
@@ -239,7 +239,7 @@ cpu_stat.grpc.pb.o: cpu_stat.grpc.pb.cc.o
 
 # target to build an object file
 cpu_stat.grpc.pb.cc.o:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.grpc.pb.cc.o
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.grpc.pb.cc.o
 .PHONY : cpu_stat.grpc.pb.cc.o
 
 cpu_stat.grpc.pb.i: cpu_stat.grpc.pb.cc.i
@@ -248,7 +248,7 @@ cpu_stat.grpc.pb.i: cpu_stat.grpc.pb.cc.i
 
 # target to preprocess a source file
 cpu_stat.grpc.pb.cc.i:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.grpc.pb.cc.i
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.grpc.pb.cc.i
 .PHONY : cpu_stat.grpc.pb.cc.i
 
 cpu_stat.grpc.pb.s: cpu_stat.grpc.pb.cc.s
@@ -257,7 +257,7 @@ cpu_stat.grpc.pb.s: cpu_stat.grpc.pb.cc.s
 
 # target to generate assembly for a file
 cpu_stat.grpc.pb.cc.s:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.grpc.pb.cc.s
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.grpc.pb.cc.s
 .PHONY : cpu_stat.grpc.pb.cc.s
 
 cpu_stat.pb.o: cpu_stat.pb.cc.o
@@ -266,7 +266,7 @@ cpu_stat.pb.o: cpu_stat.pb.cc.o
 
 # target to build an object file
 cpu_stat.pb.cc.o:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.pb.cc.o
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.pb.cc.o
 .PHONY : cpu_stat.pb.cc.o
 
 cpu_stat.pb.i: cpu_stat.pb.cc.i
@@ -275,7 +275,7 @@ cpu_stat.pb.i: cpu_stat.pb.cc.i
 
 # target to preprocess a source file
 cpu_stat.pb.cc.i:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.pb.cc.i
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.pb.cc.i
 .PHONY : cpu_stat.pb.cc.i
 
 cpu_stat.pb.s: cpu_stat.pb.cc.s
@@ -284,7 +284,7 @@ cpu_stat.pb.s: cpu_stat.pb.cc.s
 
 # target to generate assembly for a file
 cpu_stat.pb.cc.s:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.pb.cc.s
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.pb.cc.s
 .PHONY : cpu_stat.pb.cc.s
 
 health.grpc.pb.o: health.grpc.pb.cc.o
@@ -293,7 +293,7 @@ health.grpc.pb.o: health.grpc.pb.cc.o
 
 # target to build an object file
 health.grpc.pb.cc.o:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.grpc.pb.cc.o
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.grpc.pb.cc.o
 .PHONY : health.grpc.pb.cc.o
 
 health.grpc.pb.i: health.grpc.pb.cc.i
@@ -302,7 +302,7 @@ health.grpc.pb.i: health.grpc.pb.cc.i
 
 # target to preprocess a source file
 health.grpc.pb.cc.i:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.grpc.pb.cc.i
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.grpc.pb.cc.i
 .PHONY : health.grpc.pb.cc.i
 
 health.grpc.pb.s: health.grpc.pb.cc.s
@@ -311,7 +311,7 @@ health.grpc.pb.s: health.grpc.pb.cc.s
 
 # target to generate assembly for a file
 health.grpc.pb.cc.s:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.grpc.pb.cc.s
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.grpc.pb.cc.s
 .PHONY : health.grpc.pb.cc.s
 
 health.pb.o: health.pb.cc.o
@@ -320,7 +320,7 @@ health.pb.o: health.pb.cc.o
 
 # target to build an object file
 health.pb.cc.o:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.pb.cc.o
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.pb.cc.o
 .PHONY : health.pb.cc.o
 
 health.pb.i: health.pb.cc.i
@@ -329,7 +329,7 @@ health.pb.i: health.pb.cc.i
 
 # target to preprocess a source file
 health.pb.cc.i:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.pb.cc.i
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.pb.cc.i
 .PHONY : health.pb.cc.i
 
 health.pb.s: health.pb.cc.s
@@ -338,7 +338,7 @@ health.pb.s: health.pb.cc.s
 
 # target to generate assembly for a file
 health.pb.cc.s:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.pb.cc.s
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.pb.cc.s
 .PHONY : health.pb.cc.s
 
 mem_info.grpc.pb.o: mem_info.grpc.pb.cc.o
@@ -347,7 +347,7 @@ mem_info.grpc.pb.o: mem_info.grpc.pb.cc.o
 
 # target to build an object file
 mem_info.grpc.pb.cc.o:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.grpc.pb.cc.o
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.grpc.pb.cc.o
 .PHONY : mem_info.grpc.pb.cc.o
 
 mem_info.grpc.pb.i: mem_info.grpc.pb.cc.i
@@ -356,7 +356,7 @@ mem_info.grpc.pb.i: mem_info.grpc.pb.cc.i
 
 # target to preprocess a source file
 mem_info.grpc.pb.cc.i:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.grpc.pb.cc.i
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.grpc.pb.cc.i
 .PHONY : mem_info.grpc.pb.cc.i
 
 mem_info.grpc.pb.s: mem_info.grpc.pb.cc.s
@@ -365,7 +365,7 @@ mem_info.grpc.pb.s: mem_info.grpc.pb.cc.s
 
 # target to generate assembly for a file
 mem_info.grpc.pb.cc.s:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.grpc.pb.cc.s
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.grpc.pb.cc.s
 .PHONY : mem_info.grpc.pb.cc.s
 
 mem_info.pb.o: mem_info.pb.cc.o
@@ -374,7 +374,7 @@ mem_info.pb.o: mem_info.pb.cc.o
 
 # target to build an object file
 mem_info.pb.cc.o:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.pb.cc.o
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.pb.cc.o
 .PHONY : mem_info.pb.cc.o
 
 mem_info.pb.i: mem_info.pb.cc.i
@@ -383,7 +383,7 @@ mem_info.pb.i: mem_info.pb.cc.i
 
 # target to preprocess a source file
 mem_info.pb.cc.i:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.pb.cc.i
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.pb.cc.i
 .PHONY : mem_info.pb.cc.i
 
 mem_info.pb.s: mem_info.pb.cc.s
@@ -392,7 +392,7 @@ mem_info.pb.s: mem_info.pb.cc.s
 
 # target to generate assembly for a file
 mem_info.pb.cc.s:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.pb.cc.s
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.pb.cc.s
 .PHONY : mem_info.pb.cc.s
 
 monitor_info.grpc.pb.o: monitor_info.grpc.pb.cc.o
@@ -401,7 +401,7 @@ monitor_info.grpc.pb.o: monitor_info.grpc.pb.cc.o
 
 # target to build an object file
 monitor_info.grpc.pb.cc.o:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.grpc.pb.cc.o
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.grpc.pb.cc.o
 .PHONY : monitor_info.grpc.pb.cc.o
 
 monitor_info.grpc.pb.i: monitor_info.grpc.pb.cc.i
@@ -410,7 +410,7 @@ monitor_info.grpc.pb.i: monitor_info.grpc.pb.cc.i
 
 # target to preprocess a source file
 monitor_info.grpc.pb.cc.i:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.grpc.pb.cc.i
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.grpc.pb.cc.i
 .PHONY : monitor_info.grpc.pb.cc.i
 
 monitor_info.grpc.pb.s: monitor_info.grpc.pb.cc.s
@@ -419,7 +419,7 @@ monitor_info.grpc.pb.s: monitor_info.grpc.pb.cc.s
 
 # target to generate assembly for a file
 monitor_info.grpc.pb.cc.s:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.grpc.pb.cc.s
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.grpc.pb.cc.s
 .PHONY : monitor_info.grpc.pb.cc.s
 
 monitor_info.pb.o: monitor_info.pb.cc.o
@@ -428,7 +428,7 @@ monitor_info.pb.o: monitor_info.pb.cc.o
 
 # target to build an object file
 monitor_info.pb.cc.o:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.pb.cc.o
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.pb.cc.o
 .PHONY : monitor_info.pb.cc.o
 
 monitor_info.pb.i: monitor_info.pb.cc.i
@@ -437,7 +437,7 @@ monitor_info.pb.i: monitor_info.pb.cc.i
 
 # target to preprocess a source file
 monitor_info.pb.cc.i:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.pb.cc.i
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.pb.cc.i
 .PHONY : monitor_info.pb.cc.i
 
 monitor_info.pb.s: monitor_info.pb.cc.s
@@ -446,7 +446,7 @@ monitor_info.pb.s: monitor_info.pb.cc.s
 
 # target to generate assembly for a file
 monitor_info.pb.cc.s:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.pb.cc.s
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.pb.cc.s
 .PHONY : monitor_info.pb.cc.s
 
 net_info.grpc.pb.o: net_info.grpc.pb.cc.o
@@ -455,7 +455,7 @@ net_info.grpc.pb.o: net_info.grpc.pb.cc.o
 
 # target to build an object file
 net_info.grpc.pb.cc.o:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.grpc.pb.cc.o
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.grpc.pb.cc.o
 .PHONY : net_info.grpc.pb.cc.o
 
 net_info.grpc.pb.i: net_info.grpc.pb.cc.i
@@ -464,7 +464,7 @@ net_info.grpc.pb.i: net_info.grpc.pb.cc.i
 
 # target to preprocess a source file
 net_info.grpc.pb.cc.i:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.grpc.pb.cc.i
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.grpc.pb.cc.i
 .PHONY : net_info.grpc.pb.cc.i
 
 net_info.grpc.pb.s: net_info.grpc.pb.cc.s
@@ -473,7 +473,7 @@ net_info.grpc.pb.s: net_info.grpc.pb.cc.s
 
 # target to generate assembly for a file
 net_info.grpc.pb.cc.s:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.grpc.pb.cc.s
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.grpc.pb.cc.s
 .PHONY : net_info.grpc.pb.cc.s
 
 net_info.pb.o: net_info.pb.cc.o
@@ -482,7 +482,7 @@ net_info.pb.o: net_info.pb.cc.o
 
 # target to build an object file
 net_info.pb.cc.o:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.pb.cc.o
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.pb.cc.o
 .PHONY : net_info.pb.cc.o
 
 net_info.pb.i: net_info.pb.cc.i
@@ -491,7 +491,7 @@ net_info.pb.i: net_info.pb.cc.i
 
 # target to preprocess a source file
 net_info.pb.cc.i:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.pb.cc.i
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.pb.cc.i
 .PHONY : net_info.pb.cc.i
 
 net_info.pb.s: net_info.pb.cc.s
@@ -500,7 +500,7 @@ net_info.pb.s: net_info.pb.cc.s
 
 # target to generate assembly for a file
 net_info.pb.cc.s:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.pb.cc.s
+	cd /work/build && $(MAKE) -f src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/build.make src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.pb.cc.s
 .PHONY : net_info.pb.cc.s
 
 # Help Target
@@ -565,6 +565,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/u/Desktop/myNewRpcProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /work/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

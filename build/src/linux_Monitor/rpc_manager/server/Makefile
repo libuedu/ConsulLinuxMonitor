@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/u/Desktop/myNewRpcProject
+CMAKE_SOURCE_DIR = /work
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/u/Desktop/myNewRpcProject/build
+CMAKE_BINARY_DIR = /work/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/u/Desktop/myNewRpcProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/u/Desktop/myNewRpcProject/build/CMakeFiles /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/rpc_manager/server/CMakeFiles/progress.marks
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/rpc_manager/server/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/u/Desktop/myNewRpcProject/build/CMakeFiles 0
+	cd /work/build && $(CMAKE_COMMAND) -E cmake_progress_start /work/build/CMakeFiles /work/build/src/linux_Monitor/rpc_manager/server/CMakeFiles/progress.marks
+	cd /work/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/rpc_manager/server/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /work/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/rpc_manager/server/clean
+	cd /work/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/rpc_manager/server/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/rpc_manager/server/preinstall
+	cd /work/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/rpc_manager/server/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/rpc_manager/server/preinstall
+	cd /work/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/rpc_manager/server/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/u/Desktop/myNewRpcProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /work/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager_test.dir/rule:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager_test.dir/rule
+	cd /work/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager_test.dir/rule
 .PHONY : src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager_test.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ rpc_manager_test: src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager_te
 
 # fast build rule for target.
 rpc_manager_test/fast:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager_test.dir/build.make src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager_test.dir/build
+	cd /work/build && $(MAKE) -f src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager_test.dir/build.make src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager_test.dir/build
 .PHONY : rpc_manager_test/fast
 
 # Convenience name for target.
 src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/rule:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/rule
+	cd /work/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/rule
 .PHONY : src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ rpc_manager: src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/rul
 
 # fast build rule for target.
 rpc_manager/fast:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/build.make src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/build
+	cd /work/build && $(MAKE) -f src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/build.make src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/build
 .PHONY : rpc_manager/fast
 
 main_test.o: main_test.cpp.o
@@ -146,7 +146,7 @@ main_test.o: main_test.cpp.o
 
 # target to build an object file
 main_test.cpp.o:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager_test.dir/build.make src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager_test.dir/main_test.cpp.o
+	cd /work/build && $(MAKE) -f src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager_test.dir/build.make src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager_test.dir/main_test.cpp.o
 .PHONY : main_test.cpp.o
 
 main_test.i: main_test.cpp.i
@@ -155,7 +155,7 @@ main_test.i: main_test.cpp.i
 
 # target to preprocess a source file
 main_test.cpp.i:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager_test.dir/build.make src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager_test.dir/main_test.cpp.i
+	cd /work/build && $(MAKE) -f src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager_test.dir/build.make src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager_test.dir/main_test.cpp.i
 .PHONY : main_test.cpp.i
 
 main_test.s: main_test.cpp.s
@@ -164,7 +164,7 @@ main_test.s: main_test.cpp.s
 
 # target to generate assembly for a file
 main_test.cpp.s:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager_test.dir/build.make src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager_test.dir/main_test.cpp.s
+	cd /work/build && $(MAKE) -f src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager_test.dir/build.make src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager_test.dir/main_test.cpp.s
 .PHONY : main_test.cpp.s
 
 rpc_manager.o: rpc_manager.cpp.o
@@ -173,7 +173,7 @@ rpc_manager.o: rpc_manager.cpp.o
 
 # target to build an object file
 rpc_manager.cpp.o:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/build.make src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/rpc_manager.cpp.o
+	cd /work/build && $(MAKE) -f src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/build.make src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/rpc_manager.cpp.o
 .PHONY : rpc_manager.cpp.o
 
 rpc_manager.i: rpc_manager.cpp.i
@@ -182,7 +182,7 @@ rpc_manager.i: rpc_manager.cpp.i
 
 # target to preprocess a source file
 rpc_manager.cpp.i:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/build.make src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/rpc_manager.cpp.i
+	cd /work/build && $(MAKE) -f src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/build.make src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/rpc_manager.cpp.i
 .PHONY : rpc_manager.cpp.i
 
 rpc_manager.s: rpc_manager.cpp.s
@@ -191,7 +191,7 @@ rpc_manager.s: rpc_manager.cpp.s
 
 # target to generate assembly for a file
 rpc_manager.cpp.s:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/build.make src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/rpc_manager.cpp.s
+	cd /work/build && $(MAKE) -f src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/build.make src/linux_Monitor/rpc_manager/server/CMakeFiles/rpc_manager.dir/rpc_manager.cpp.s
 .PHONY : rpc_manager.cpp.s
 
 # Help Target
@@ -221,6 +221,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/u/Desktop/myNewRpcProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /work/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

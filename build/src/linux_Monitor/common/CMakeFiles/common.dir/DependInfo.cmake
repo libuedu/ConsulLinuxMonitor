@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/u/Desktop/myNewRpcProject/src/linux_Monitor/common/common.cpp" "/home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/common/CMakeFiles/common.dir/common.cpp.o"
-  "/home/u/Desktop/myNewRpcProject/src/linux_Monitor/common/myLog.cpp" "/home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/common/CMakeFiles/common.dir/myLog.cpp.o"
+  "/work/src/linux_Monitor/common/common.cpp" "/work/build/src/linux_Monitor/common/CMakeFiles/common.dir/common.cpp.o"
+  "/work/src/linux_Monitor/common/myLog.cpp" "/work/build/src/linux_Monitor/common/CMakeFiles/common.dir/myLog.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

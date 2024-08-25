@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS = -w -O2 -g -ggdb -w -fPIC   -std=gnu++17
 
-CXX_DEFINES = -DCARES_STATICLIB -DLinux_Monitor_EXPORTS -D__CLANG_SUPPORT_DYN_ANNOTATION__
+CXX_DEFINES = -DLinux_Monitor_EXPORTS -D__CLANG_SUPPORT_DYN_ANNOTATION__
 
-CXX_INCLUDES = -I/home/u/Desktop/myNewRpcProject/src/linux_Monitor/Linux_Monitor/include/monitor -I/home/u/Desktop/myNewRpcProject/src/linux_Monitor/Linux_Monitor/include/utils -I/home/u/Desktop/myNewRpcProject/src/linux_Monitor/rpc_manager/client -I/home/u/Desktop/myNewRpcProject/src/linux_Monitor/rpc_manager/server -I/home/u/Desktop/myNewRpcProject/src/linux_Monitor/display_monitor -I/home/u/Desktop/myNewRpcProject/src/linux_Monitor/common -I/home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto 
+CXX_INCLUDES = -I/work/src/linux_Monitor/Linux_Monitor/include/monitor -I/work/src/linux_Monitor/Linux_Monitor/include/utils -I/work/src/linux_Monitor/rpc_manager/client -I/work/src/linux_Monitor/rpc_manager/server -I/work/src/linux_Monitor/display_monitor -I/work/src/linux_Monitor/common -I/work/build/src/linux_Monitor/proto 
 

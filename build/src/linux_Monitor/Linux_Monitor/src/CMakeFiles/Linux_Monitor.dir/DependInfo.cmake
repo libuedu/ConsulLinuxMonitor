@@ -4,18 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/u/Desktop/myNewRpcProject/src/linux_Monitor/Linux_Monitor/src/monitor/cpu_load_monitor.cpp" "/home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/cpu_load_monitor.cpp.o"
-  "/home/u/Desktop/myNewRpcProject/src/linux_Monitor/Linux_Monitor/src/monitor/cpu_softirq_monitor.cpp" "/home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/cpu_softirq_monitor.cpp.o"
-  "/home/u/Desktop/myNewRpcProject/src/linux_Monitor/Linux_Monitor/src/monitor/cpu_stat_monitor.cpp" "/home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/cpu_stat_monitor.cpp.o"
-  "/home/u/Desktop/myNewRpcProject/src/linux_Monitor/Linux_Monitor/src/monitor/mem_monitor.cpp" "/home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/mem_monitor.cpp.o"
-  "/home/u/Desktop/myNewRpcProject/src/linux_Monitor/Linux_Monitor/src/monitor/net_monitor.cpp" "/home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/net_monitor.cpp.o"
-  "/home/u/Desktop/myNewRpcProject/src/linux_Monitor/Linux_Monitor/src/utils/read_file.cpp" "/home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/utils/read_file.cpp.o"
+  "/work/src/linux_Monitor/Linux_Monitor/src/monitor/cpu_load_monitor.cpp" "/work/build/src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/cpu_load_monitor.cpp.o"
+  "/work/src/linux_Monitor/Linux_Monitor/src/monitor/cpu_softirq_monitor.cpp" "/work/build/src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/cpu_softirq_monitor.cpp.o"
+  "/work/src/linux_Monitor/Linux_Monitor/src/monitor/cpu_stat_monitor.cpp" "/work/build/src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/cpu_stat_monitor.cpp.o"
+  "/work/src/linux_Monitor/Linux_Monitor/src/monitor/mem_monitor.cpp" "/work/build/src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/mem_monitor.cpp.o"
+  "/work/src/linux_Monitor/Linux_Monitor/src/monitor/net_monitor.cpp" "/work/build/src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/monitor/net_monitor.cpp.o"
+  "/work/src/linux_Monitor/Linux_Monitor/src/utils/read_file.cpp" "/work/build/src/linux_Monitor/Linux_Monitor/src/CMakeFiles/Linux_Monitor.dir/utils/read_file.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
-  "CARES_STATICLIB"
   "Linux_Monitor_EXPORTS"
   "__CLANG_SUPPORT_DYN_ANNOTATION__"
   )
@@ -33,9 +32,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/common/CMakeFiles/common.dir/DependInfo.cmake"
-  "/home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/rpc_manager/client/CMakeFiles/rpc_client.dir/DependInfo.cmake"
-  "/home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/DependInfo.cmake"
+  "/work/build/src/linux_Monitor/common/CMakeFiles/common.dir/DependInfo.cmake"
+  "/work/build/src/linux_Monitor/rpc_manager/client/CMakeFiles/rpc_client.dir/DependInfo.cmake"
+  "/work/build/src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

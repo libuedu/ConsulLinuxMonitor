@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/u/Desktop/myNewRpcProject
+CMAKE_SOURCE_DIR = /work
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/u/Desktop/myNewRpcProject/build
+CMAKE_BINARY_DIR = /work/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/u/Desktop/myNewRpcProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/u/Desktop/myNewRpcProject/build/CMakeFiles /home/u/Desktop/myNewRpcProject/build/src/linux_Monitor/common/CMakeFiles/progress.marks
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/common/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/u/Desktop/myNewRpcProject/build/CMakeFiles 0
+	cd /work/build && $(CMAKE_COMMAND) -E cmake_progress_start /work/build/CMakeFiles /work/build/src/linux_Monitor/common/CMakeFiles/progress.marks
+	cd /work/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/common/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /work/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/common/clean
+	cd /work/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/common/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/common/preinstall
+	cd /work/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/common/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/common/preinstall
+	cd /work/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/common/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/u/Desktop/myNewRpcProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /work/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/linux_Monitor/common/CMakeFiles/common_test.dir/rule:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/common/CMakeFiles/common_test.dir/rule
+	cd /work/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/common/CMakeFiles/common_test.dir/rule
 .PHONY : src/linux_Monitor/common/CMakeFiles/common_test.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ common_test: src/linux_Monitor/common/CMakeFiles/common_test.dir/rule
 
 # fast build rule for target.
 common_test/fast:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/common/CMakeFiles/common_test.dir/build.make src/linux_Monitor/common/CMakeFiles/common_test.dir/build
+	cd /work/build && $(MAKE) -f src/linux_Monitor/common/CMakeFiles/common_test.dir/build.make src/linux_Monitor/common/CMakeFiles/common_test.dir/build
 .PHONY : common_test/fast
 
 # Convenience name for target.
 src/linux_Monitor/common/CMakeFiles/common.dir/rule:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/common/CMakeFiles/common.dir/rule
+	cd /work/build && $(MAKE) -f CMakeFiles/Makefile2 src/linux_Monitor/common/CMakeFiles/common.dir/rule
 .PHONY : src/linux_Monitor/common/CMakeFiles/common.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ common: src/linux_Monitor/common/CMakeFiles/common.dir/rule
 
 # fast build rule for target.
 common/fast:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/common/CMakeFiles/common.dir/build.make src/linux_Monitor/common/CMakeFiles/common.dir/build
+	cd /work/build && $(MAKE) -f src/linux_Monitor/common/CMakeFiles/common.dir/build.make src/linux_Monitor/common/CMakeFiles/common.dir/build
 .PHONY : common/fast
 
 common.o: common.cpp.o
@@ -146,7 +146,7 @@ common.o: common.cpp.o
 
 # target to build an object file
 common.cpp.o:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/common/CMakeFiles/common.dir/build.make src/linux_Monitor/common/CMakeFiles/common.dir/common.cpp.o
+	cd /work/build && $(MAKE) -f src/linux_Monitor/common/CMakeFiles/common.dir/build.make src/linux_Monitor/common/CMakeFiles/common.dir/common.cpp.o
 .PHONY : common.cpp.o
 
 common.i: common.cpp.i
@@ -155,7 +155,7 @@ common.i: common.cpp.i
 
 # target to preprocess a source file
 common.cpp.i:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/common/CMakeFiles/common.dir/build.make src/linux_Monitor/common/CMakeFiles/common.dir/common.cpp.i
+	cd /work/build && $(MAKE) -f src/linux_Monitor/common/CMakeFiles/common.dir/build.make src/linux_Monitor/common/CMakeFiles/common.dir/common.cpp.i
 .PHONY : common.cpp.i
 
 common.s: common.cpp.s
@@ -164,7 +164,7 @@ common.s: common.cpp.s
 
 # target to generate assembly for a file
 common.cpp.s:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/common/CMakeFiles/common.dir/build.make src/linux_Monitor/common/CMakeFiles/common.dir/common.cpp.s
+	cd /work/build && $(MAKE) -f src/linux_Monitor/common/CMakeFiles/common.dir/build.make src/linux_Monitor/common/CMakeFiles/common.dir/common.cpp.s
 .PHONY : common.cpp.s
 
 main_common_test.o: main_common_test.cpp.o
@@ -173,7 +173,7 @@ main_common_test.o: main_common_test.cpp.o
 
 # target to build an object file
 main_common_test.cpp.o:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/common/CMakeFiles/common_test.dir/build.make src/linux_Monitor/common/CMakeFiles/common_test.dir/main_common_test.cpp.o
+	cd /work/build && $(MAKE) -f src/linux_Monitor/common/CMakeFiles/common_test.dir/build.make src/linux_Monitor/common/CMakeFiles/common_test.dir/main_common_test.cpp.o
 .PHONY : main_common_test.cpp.o
 
 main_common_test.i: main_common_test.cpp.i
@@ -182,7 +182,7 @@ main_common_test.i: main_common_test.cpp.i
 
 # target to preprocess a source file
 main_common_test.cpp.i:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/common/CMakeFiles/common_test.dir/build.make src/linux_Monitor/common/CMakeFiles/common_test.dir/main_common_test.cpp.i
+	cd /work/build && $(MAKE) -f src/linux_Monitor/common/CMakeFiles/common_test.dir/build.make src/linux_Monitor/common/CMakeFiles/common_test.dir/main_common_test.cpp.i
 .PHONY : main_common_test.cpp.i
 
 main_common_test.s: main_common_test.cpp.s
@@ -191,7 +191,7 @@ main_common_test.s: main_common_test.cpp.s
 
 # target to generate assembly for a file
 main_common_test.cpp.s:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/common/CMakeFiles/common_test.dir/build.make src/linux_Monitor/common/CMakeFiles/common_test.dir/main_common_test.cpp.s
+	cd /work/build && $(MAKE) -f src/linux_Monitor/common/CMakeFiles/common_test.dir/build.make src/linux_Monitor/common/CMakeFiles/common_test.dir/main_common_test.cpp.s
 .PHONY : main_common_test.cpp.s
 
 myLog.o: myLog.cpp.o
@@ -200,7 +200,7 @@ myLog.o: myLog.cpp.o
 
 # target to build an object file
 myLog.cpp.o:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/common/CMakeFiles/common.dir/build.make src/linux_Monitor/common/CMakeFiles/common.dir/myLog.cpp.o
+	cd /work/build && $(MAKE) -f src/linux_Monitor/common/CMakeFiles/common.dir/build.make src/linux_Monitor/common/CMakeFiles/common.dir/myLog.cpp.o
 .PHONY : myLog.cpp.o
 
 myLog.i: myLog.cpp.i
@@ -209,7 +209,7 @@ myLog.i: myLog.cpp.i
 
 # target to preprocess a source file
 myLog.cpp.i:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/common/CMakeFiles/common.dir/build.make src/linux_Monitor/common/CMakeFiles/common.dir/myLog.cpp.i
+	cd /work/build && $(MAKE) -f src/linux_Monitor/common/CMakeFiles/common.dir/build.make src/linux_Monitor/common/CMakeFiles/common.dir/myLog.cpp.i
 .PHONY : myLog.cpp.i
 
 myLog.s: myLog.cpp.s
@@ -218,7 +218,7 @@ myLog.s: myLog.cpp.s
 
 # target to generate assembly for a file
 myLog.cpp.s:
-	cd /home/u/Desktop/myNewRpcProject/build && $(MAKE) -f src/linux_Monitor/common/CMakeFiles/common.dir/build.make src/linux_Monitor/common/CMakeFiles/common.dir/myLog.cpp.s
+	cd /work/build && $(MAKE) -f src/linux_Monitor/common/CMakeFiles/common.dir/build.make src/linux_Monitor/common/CMakeFiles/common.dir/myLog.cpp.s
 .PHONY : myLog.cpp.s
 
 # Help Target
@@ -251,6 +251,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/u/Desktop/myNewRpcProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /work/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

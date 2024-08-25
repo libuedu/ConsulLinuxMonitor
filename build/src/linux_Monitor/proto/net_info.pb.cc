@@ -28,7 +28,6 @@ static void InitDefaultsscc_info_NetInfo_net_5finfo_2eproto() {
     new (ptr) ::linux_Monitor::NetInfo();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
-  ::linux_Monitor::NetInfo::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_NetInfo_net_5finfo_2eproto =
@@ -83,8 +82,6 @@ namespace linux_Monitor {
 
 // ===================================================================
 
-void NetInfo::InitAsDefaultInstance() {
-}
 class NetInfo::_Internal {
  public:
 };
@@ -100,7 +97,7 @@ NetInfo::NetInfo(const NetInfo& from)
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   name_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (!from._internal_name().empty()) {
-    name_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from._internal_name(),
+    name_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, from._internal_name(), 
       GetArena());
   }
   ::memcpy(&send_rate_, &from.send_rate_,
@@ -112,8 +109,9 @@ NetInfo::NetInfo(const NetInfo& from)
 void NetInfo::SharedCtor() {
   ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_NetInfo_net_5finfo_2eproto.base);
   name_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  ::memset(&send_rate_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&rcv_packets_rate_) -
+  ::memset(reinterpret_cast<char*>(this) + static_cast<size_t>(
+      reinterpret_cast<char*>(&send_rate_) - reinterpret_cast<char*>(this)),
+      0, static_cast<size_t>(reinterpret_cast<char*>(&rcv_packets_rate_) -
       reinterpret_cast<char*>(&send_rate_)) + sizeof(rcv_packets_rate_));
 }
 
@@ -149,7 +147,7 @@ void NetInfo::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  name_.ClearToEmpty(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
+  name_.ClearToEmpty();
   ::memset(&send_rate_, 0, static_cast<size_t>(
       reinterpret_cast<char*>(&rcv_packets_rate_) -
       reinterpret_cast<char*>(&send_rate_)) + sizeof(rcv_packets_rate_));
@@ -158,7 +156,6 @@ void NetInfo::Clear() {
 
 const char* NetInfo::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
     ::PROTOBUF_NAMESPACE_ID::uint32 tag;
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
