@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "../../../../../lib/librpc_manager.pdb"
-  "../../../../../lib/librpc_manager.so"
+  "/work/lib/librpc_manager.pdb"
+  "/work/lib/librpc_manager.so"
   "CMakeFiles/rpc_manager.dir/rpc_manager.cpp.o"
+  "CMakeFiles/rpc_manager.dir/rpc_manager.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

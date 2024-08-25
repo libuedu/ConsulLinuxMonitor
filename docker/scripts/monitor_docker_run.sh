@@ -34,4 +34,4 @@ docker run -it -d \
 -v ${MONITOR_HOME_DIR}:/work \
 -v ${XDG_RUNTIME_DIR}:${XDG_RUNTIME_DIR} \
 --net host \
-linux:monitor_consul
+linux:monitor_consul_1
