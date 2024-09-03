@@ -1,4 +1,0 @@
-Log file created at: 2024/08/24 21:18:53
-Running on machine: u-virtual-machine
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-I0824 21:18:53.922261 11058 main_test.cpp:25] Log Hello World!!!
