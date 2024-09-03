@@ -2,6 +2,7 @@
 
 MONITOR_HOME_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )/../.." && pwd )"
 echo "MONITOR_HOME_DIR is set to: ${MONITOR_HOME_DIR}"
+echo "XDG_RUNTIME_DIR is set to: ${XDG_RUNTIME_DIR}"
 display=""
 if [ -z ${DISPLAY} ];then
     display=":1"
@@ -31,6 +32,7 @@ docker run -it -d \
 -e DOCKER_GRP="${group}" \
 -e DOCKER_GRP_ID="${gid}" \
 -e XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR \
+-p 10086:10086 \
 -v ${MONITOR_HOME_DIR}:/work \
 -v ${XDG_RUNTIME_DIR}:${XDG_RUNTIME_DIR} \
 --net host \
