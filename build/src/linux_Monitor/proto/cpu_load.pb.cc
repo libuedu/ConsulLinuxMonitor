@@ -28,6 +28,7 @@ static void InitDefaultsscc_info_CpuLoad_cpu_5fload_2eproto() {
     new (ptr) ::linux_Monitor::CpuLoad();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::linux_Monitor::CpuLoad::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_CpuLoad_cpu_5fload_2eproto =
@@ -79,6 +80,8 @@ namespace linux_Monitor {
 
 // ===================================================================
 
+void CpuLoad::InitAsDefaultInstance() {
+}
 class CpuLoad::_Internal {
  public:
 };
@@ -99,9 +102,8 @@ CpuLoad::CpuLoad(const CpuLoad& from)
 }
 
 void CpuLoad::SharedCtor() {
-  ::memset(reinterpret_cast<char*>(this) + static_cast<size_t>(
-      reinterpret_cast<char*>(&load_avg_1_) - reinterpret_cast<char*>(this)),
-      0, static_cast<size_t>(reinterpret_cast<char*>(&load_avg_15_) -
+  ::memset(&load_avg_1_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&load_avg_15_) -
       reinterpret_cast<char*>(&load_avg_1_)) + sizeof(load_avg_15_));
 }
 
@@ -144,6 +146,7 @@ void CpuLoad::Clear() {
 
 const char* CpuLoad::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
+  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
     ::PROTOBUF_NAMESPACE_ID::uint32 tag;
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);

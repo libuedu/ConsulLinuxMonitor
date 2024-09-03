@@ -33,6 +33,7 @@ static void InitDefaultsscc_info_MonitorInfo_monitor_5finfo_2eproto() {
     new (ptr) ::linux_Monitor::MonitorInfo();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::linux_Monitor::MonitorInfo::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<5> scc_info_MonitorInfo_monitor_5finfo_2eproto =
@@ -111,6 +112,12 @@ namespace linux_Monitor {
 
 // ===================================================================
 
+void MonitorInfo::InitAsDefaultInstance() {
+  ::linux_Monitor::_MonitorInfo_default_instance_._instance.get_mutable()->cpu_load_ = const_cast< ::linux_Monitor::CpuLoad*>(
+      ::linux_Monitor::CpuLoad::internal_default_instance());
+  ::linux_Monitor::_MonitorInfo_default_instance_._instance.get_mutable()->mem_info_ = const_cast< ::linux_Monitor::MemInfo*>(
+      ::linux_Monitor::MemInfo::internal_default_instance());
+}
 class MonitorInfo::_Internal {
  public:
   static const ::linux_Monitor::CpuLoad& cpu_load(const MonitorInfo* msg);
@@ -163,7 +170,7 @@ MonitorInfo::MonitorInfo(const MonitorInfo& from)
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   name_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (!from._internal_name().empty()) {
-    name_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, from._internal_name(), 
+    name_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from._internal_name(),
       GetArena());
   }
   if (from._internal_has_cpu_load()) {
@@ -182,9 +189,8 @@ MonitorInfo::MonitorInfo(const MonitorInfo& from)
 void MonitorInfo::SharedCtor() {
   ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_MonitorInfo_monitor_5finfo_2eproto.base);
   name_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  ::memset(reinterpret_cast<char*>(this) + static_cast<size_t>(
-      reinterpret_cast<char*>(&cpu_load_) - reinterpret_cast<char*>(this)),
-      0, static_cast<size_t>(reinterpret_cast<char*>(&mem_info_) -
+  ::memset(&cpu_load_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&mem_info_) -
       reinterpret_cast<char*>(&cpu_load_)) + sizeof(mem_info_));
 }
 
@@ -225,7 +231,7 @@ void MonitorInfo::Clear() {
   soft_irq_.Clear();
   cpu_stat_.Clear();
   net_info_.Clear();
-  name_.ClearToEmpty();
+  name_.ClearToEmpty(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
   if (GetArena() == nullptr && cpu_load_ != nullptr) {
     delete cpu_load_;
   }
@@ -239,6 +245,7 @@ void MonitorInfo::Clear() {
 
 const char* MonitorInfo::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
+  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
     ::PROTOBUF_NAMESPACE_ID::uint32 tag;
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);

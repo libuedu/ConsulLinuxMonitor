@@ -128,6 +128,7 @@
 #define __HAVE_SPECULATION_SAFE_VALUE 1
 #define __DEC32_MIN_EXP__ (-94)
 #define __INTPTR_WIDTH__ 64
+#define CARES_STATICLIB 1
 #define __FLT32X_HAS_DENORM__ 1
 #define __INT_FAST16_TYPE__ long int
 #define __LDBL_HAS_DENORM__ 1

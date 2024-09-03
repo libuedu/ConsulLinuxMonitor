@@ -36,6 +36,7 @@ static void InitDefaultsscc_info_HealthCheckRequest_health_2eproto() {
     new (ptr) ::grpc::health::v1::HealthCheckRequest();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::grpc::health::v1::HealthCheckRequest::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_HealthCheckRequest_health_2eproto =
@@ -49,6 +50,7 @@ static void InitDefaultsscc_info_HealthCheckResponse_health_2eproto() {
     new (ptr) ::grpc::health::v1::HealthCheckResponse();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  ::grpc::health::v1::HealthCheckResponse::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_HealthCheckResponse_health_2eproto =
@@ -142,6 +144,8 @@ constexpr int HealthCheckResponse::ServingStatus_ARRAYSIZE;
 
 // ===================================================================
 
+void HealthCheckRequest::InitAsDefaultInstance() {
+}
 class HealthCheckRequest::_Internal {
  public:
 };
@@ -157,7 +161,7 @@ HealthCheckRequest::HealthCheckRequest(const HealthCheckRequest& from)
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   service_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (!from._internal_service().empty()) {
-    service_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, from._internal_service(), 
+    service_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from._internal_service(),
       GetArena());
   }
   // @@protoc_insertion_point(copy_constructor:grpc.health.v1.HealthCheckRequest)
@@ -200,12 +204,13 @@ void HealthCheckRequest::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  service_.ClearToEmpty();
+  service_.ClearToEmpty(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
 const char* HealthCheckRequest::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
+  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
     ::PROTOBUF_NAMESPACE_ID::uint32 tag;
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
@@ -348,6 +353,8 @@ void HealthCheckRequest::InternalSwap(HealthCheckRequest* other) {
 
 // ===================================================================
 
+void HealthCheckResponse::InitAsDefaultInstance() {
+}
 class HealthCheckResponse::_Internal {
  public:
 };
@@ -406,6 +413,7 @@ void HealthCheckResponse::Clear() {
 
 const char* HealthCheckResponse::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
+  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
     ::PROTOBUF_NAMESPACE_ID::uint32 tag;
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);

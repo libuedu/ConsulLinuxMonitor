@@ -1,0 +1,18 @@
+alive: MainServer 192.168.231.128:8301
+event-clock: 1
+clock: 1
+alive: MainServer 192.168.231.128:8301
+alive: MainServer 192.168.231.128:8301
+clock: 2
+event-clock: 2
+alive: FollowServer-1 192.168.231.133:8301
+clock: 3
+alive: FollowServer-2 192.168.231.135:8301
+clock: 4
+alive: FollowServer-3 192.168.231.134:8301
+clock: 5
+clock: 6
+not-alive: FollowServer-3
+clock: 8
+not-alive: FollowServer-2
+clock: 9

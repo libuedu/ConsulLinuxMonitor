@@ -1,45 +1,60 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/cpu_load.grpc.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.grpc.pb.cc.o"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/cpu_load.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.pb.cc.o"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/cpu_softirq.grpc.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.grpc.pb.cc.o"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/cpu_softirq.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.pb.cc.o"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/cpu_stat.grpc.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.grpc.pb.cc.o"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/cpu_stat.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.pb.cc.o"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/health.grpc.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.grpc.pb.cc.o"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/health.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.pb.cc.o"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/mem_info.grpc.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.grpc.pb.cc.o"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/mem_info.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.pb.cc.o"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/monitor_info.grpc.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.grpc.pb.cc.o"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/monitor_info.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.pb.cc.o"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/net_info.grpc.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.grpc.pb.cc.o"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/net_info.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.pb.cc.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "CARES_STATICLIB"
+  "__CLANG_SUPPORT_DYN_ANNOTATION__"
+  "monitor_proto_EXPORTS"
   )
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/work/build/src/linux_Monitor/proto/cpu_load.grpc.pb.cc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.grpc.pb.cc.o" "gcc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.grpc.pb.cc.o.d"
-  "/work/build/src/linux_Monitor/proto/cpu_load.pb.cc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.pb.cc.o" "gcc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_load.pb.cc.o.d"
-  "/work/build/src/linux_Monitor/proto/cpu_softirq.grpc.pb.cc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.grpc.pb.cc.o" "gcc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.grpc.pb.cc.o.d"
-  "/work/build/src/linux_Monitor/proto/cpu_softirq.pb.cc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.pb.cc.o" "gcc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_softirq.pb.cc.o.d"
-  "/work/build/src/linux_Monitor/proto/cpu_stat.grpc.pb.cc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.grpc.pb.cc.o" "gcc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.grpc.pb.cc.o.d"
-  "/work/build/src/linux_Monitor/proto/cpu_stat.pb.cc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.pb.cc.o" "gcc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/cpu_stat.pb.cc.o.d"
-  "/work/build/src/linux_Monitor/proto/health.grpc.pb.cc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.grpc.pb.cc.o" "gcc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.grpc.pb.cc.o.d"
-  "/work/build/src/linux_Monitor/proto/health.pb.cc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.pb.cc.o" "gcc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/health.pb.cc.o.d"
-  "/work/build/src/linux_Monitor/proto/mem_info.grpc.pb.cc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.grpc.pb.cc.o" "gcc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.grpc.pb.cc.o.d"
-  "/work/build/src/linux_Monitor/proto/mem_info.pb.cc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.pb.cc.o" "gcc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/mem_info.pb.cc.o.d"
-  "/work/build/src/linux_Monitor/proto/monitor_info.grpc.pb.cc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.grpc.pb.cc.o" "gcc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.grpc.pb.cc.o.d"
-  "/work/build/src/linux_Monitor/proto/monitor_info.pb.cc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.pb.cc.o" "gcc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/monitor_info.pb.cc.o.d"
-  "/work/build/src/linux_Monitor/proto/net_info.grpc.pb.cc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.grpc.pb.cc.o" "gcc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.grpc.pb.cc.o.d"
-  "/work/build/src/linux_Monitor/proto/net_info.pb.cc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.pb.cc.o" "gcc" "src/linux_Monitor/proto/CMakeFiles/monitor_proto.dir/net_info.pb.cc.o.d"
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../src/linux_Monitor/Linux_Monitor/include/monitor"
+  "../src/linux_Monitor/Linux_Monitor/include/utils"
+  "../src/linux_Monitor/rpc_manager/client"
+  "../src/linux_Monitor/rpc_manager/server"
+  "../src/linux_Monitor/display_monitor"
+  "../src/linux_Monitor/common"
+  "src/linux_Monitor/proto"
   )
 
 # Pairs of files generated by the same build rule.
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
-  "/work/build/src/linux_Monitor/proto/cpu_load.grpc.pb.cc" "/work/build/src/linux_Monitor/proto/cpu_load.grpc.pb.h"
-  "/work/build/src/linux_Monitor/proto/cpu_load.pb.cc" "/work/build/src/linux_Monitor/proto/cpu_load.pb.h"
-  "/work/build/src/linux_Monitor/proto/cpu_softirq.grpc.pb.cc" "/work/build/src/linux_Monitor/proto/cpu_softirq.grpc.pb.h"
-  "/work/build/src/linux_Monitor/proto/cpu_softirq.pb.cc" "/work/build/src/linux_Monitor/proto/cpu_softirq.pb.h"
-  "/work/build/src/linux_Monitor/proto/cpu_stat.grpc.pb.cc" "/work/build/src/linux_Monitor/proto/cpu_stat.grpc.pb.h"
-  "/work/build/src/linux_Monitor/proto/cpu_stat.pb.cc" "/work/build/src/linux_Monitor/proto/cpu_stat.pb.h"
-  "/work/build/src/linux_Monitor/proto/health.grpc.pb.cc" "/work/build/src/linux_Monitor/proto/health.grpc.pb.h"
-  "/work/build/src/linux_Monitor/proto/health.pb.cc" "/work/build/src/linux_Monitor/proto/health.pb.h"
-  "/work/build/src/linux_Monitor/proto/mem_info.grpc.pb.cc" "/work/build/src/linux_Monitor/proto/mem_info.grpc.pb.h"
-  "/work/build/src/linux_Monitor/proto/mem_info.pb.cc" "/work/build/src/linux_Monitor/proto/mem_info.pb.h"
-  "/work/build/src/linux_Monitor/proto/monitor_info.grpc.pb.cc" "/work/build/src/linux_Monitor/proto/monitor_info.grpc.pb.h"
-  "/work/build/src/linux_Monitor/proto/monitor_info.pb.cc" "/work/build/src/linux_Monitor/proto/monitor_info.pb.h"
-  "/work/build/src/linux_Monitor/proto/net_info.grpc.pb.cc" "/work/build/src/linux_Monitor/proto/net_info.grpc.pb.h"
-  "/work/build/src/linux_Monitor/proto/net_info.pb.cc" "/work/build/src/linux_Monitor/proto/net_info.pb.h"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/cpu_load.grpc.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/cpu_load.grpc.pb.h"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/cpu_load.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/cpu_load.pb.h"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/cpu_softirq.grpc.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/cpu_softirq.grpc.pb.h"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/cpu_softirq.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/cpu_softirq.pb.h"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/cpu_stat.grpc.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/cpu_stat.grpc.pb.h"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/cpu_stat.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/cpu_stat.pb.h"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/health.grpc.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/health.grpc.pb.h"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/health.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/health.pb.h"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/mem_info.grpc.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/mem_info.grpc.pb.h"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/mem_info.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/mem_info.pb.h"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/monitor_info.grpc.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/monitor_info.grpc.pb.h"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/monitor_info.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/monitor_info.pb.h"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/net_info.grpc.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/net_info.grpc.pb.h"
+  "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/net_info.pb.cc" "/home/u/Desktop/ConsulLinuxMonitor/build/src/linux_Monitor/proto/net_info.pb.h"
   )
 
 

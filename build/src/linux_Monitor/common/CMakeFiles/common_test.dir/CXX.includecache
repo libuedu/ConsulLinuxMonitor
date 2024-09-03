@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/work/src/linux_Monitor/common/common.h
+/home/u/Desktop/ConsulLinuxMonitor/src/linux_Monitor/common/common.h
 iostream
 -
 string
@@ -18,15 +18,15 @@ cstring
 unistd.h
 -
 
-/work/src/linux_Monitor/common/main_common_test.cpp
+/home/u/Desktop/ConsulLinuxMonitor/src/linux_Monitor/common/main_common_test.cpp
 iostream
 -
 common.h
-/work/src/linux_Monitor/common/common.h
+/home/u/Desktop/ConsulLinuxMonitor/src/linux_Monitor/common/common.h
 myLog.h
-/work/src/linux_Monitor/common/myLog.h
+/home/u/Desktop/ConsulLinuxMonitor/src/linux_Monitor/common/myLog.h
 
-/work/src/linux_Monitor/common/myLog.h
+/home/u/Desktop/ConsulLinuxMonitor/src/linux_Monitor/common/myLog.h
 glog/logging.h
 -
 iostream
