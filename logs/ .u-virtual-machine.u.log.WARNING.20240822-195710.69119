@@ -1,5 +1,0 @@
-Log file created at: 2024/08/22 19:57:10
-Running on machine: u-virtual-machine
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-W0822 19:57:10.908397 69120 net_monitor.cpp:58] Invalid network data rows:Inter-|
-W0822 19:57:10.908892 69120 net_monitor.cpp:58] Invalid network data rows:face
